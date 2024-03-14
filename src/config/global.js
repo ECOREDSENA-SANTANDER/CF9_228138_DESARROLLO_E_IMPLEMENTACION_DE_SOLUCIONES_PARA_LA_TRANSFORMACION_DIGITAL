@@ -8,11 +8,11 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -45,22 +45,22 @@ export default {
           {
             numero: '2.1',
             titulo: 'Sintaxis',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
             numero: '2.2',
             titulo: 'Estructura general del lenguaje',
-            hash: 't_1_1',
+            hash: 't_2_2',
           },
           {
             numero: '2.3',
             titulo: 'Editores de código',
-            hash: 't_1_1',
+            hash: 't_2_3',
           },
           {
             numero: '2.4',
             titulo: 'Conexiones a bases de datos',
-            hash: 't_1_1',
+            hash: 't_2_4',
           },
         ],
       },
@@ -73,17 +73,17 @@ export default {
           {
             numero: '3.1',
             titulo: 'Entornos de desarrollo y Frameworks',
-            hash: 't_1_1',
+            hash: 't_3_1',
           },
           {
             numero: '3.2',
             titulo: 'Estándares de codificación y plantillas ',
-            hash: 't_1_1',
+            hash: 't_3_2',
           },
           {
             numero: '3.3',
             titulo: 'Implementación de IoT',
-            hash: 't_1_1',
+            hash: 't_3_3',
           },
         ],
       },
@@ -270,9 +270,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'César Antonio Villamizar Núñez ',
+          cargo: 'Experto Temático  ',
+          centro: 'Sena - Norte de Santander Centro CIES ',
+        },
+        {
+          nombre: ' Diego E. Acevedo Guevara ',
+          cargo: 'Diseñador Instruccional  ',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Carolina Coca Salazar ',
+          cargo: 'Asesor Metodológico ',
+          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología  ',
+        },
+        {
+          nombre: 'Rafael Neftali Lizcano Reyes ',
+          cargo: 'Responsable Equipo de Desarrollo Curricular. ',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda ',
+          cargo: 'Corrección de estilo ',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
         },
       ],
     },
@@ -280,12 +302,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Diego E. Acevedo Guevara',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Pedro Alonso Bolivar Gonzalez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

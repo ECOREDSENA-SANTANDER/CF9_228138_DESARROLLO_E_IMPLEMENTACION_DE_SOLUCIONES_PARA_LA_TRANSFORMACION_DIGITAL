@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="121.626" height="121.626" viewBox="0 0 121.626 121.626">
-  <g id="Grupo_1070060" data-name="Grupo 1070060" transform="translate(-141 -620.191)">
-    <g id="Filled_outline" data-name="Filled outline" transform="translate(125 604.191)">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="142.817" viewBox="0 0 400 142.817">
+  <g id="Grupo_1070057" data-name="Grupo 1070057" transform="translate(-1020 -734)">
+    <rect id="Rectángulo_37187" data-name="Rectángulo 37187" width="400" height="97" rx="8" transform="translate(1020 734)" fill="#fee6d1"/>
+    <g id="Filled_outline" data-name="Filled outline" transform="translate(1143 739.191)">
       <path id="Trazado_771080" data-name="Trazado 771080" d="M96.108,72h81.084a8.108,8.108,0,0,1,8.108,8.108v62.84a6.081,6.081,0,0,1-6.081,6.081H94.081A6.081,6.081,0,0,1,88,142.948V80.108A8.108,8.108,0,0,1,96.108,72Z" transform="translate(-53.756 -41.81)" fill="#4db7e5"/>
       <path id="Trazado_771081" data-name="Trazado 771081" d="M434.027,72H432v77.03h4.054V72.255A8.124,8.124,0,0,0,434.027,72Z" transform="translate(-310.591 -41.81)" fill="#48add9"/>
       <path id="Trazado_771082" data-name="Trazado 771082" d="M196.921,24H136.108A8.108,8.108,0,0,0,128,32.108v85.138h77.03V32.108A8.108,8.108,0,0,0,196.921,24Z" transform="translate(-83.621 -5.973)" fill="#348fd9"/>
