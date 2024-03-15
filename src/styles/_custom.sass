@@ -19,25 +19,16 @@
   100%
     transform: translateY(0px)
 
-.bloque-texto-b.intro:before
-  content: ''
-  display: block
-  position: absolute
-  opacity: .30
-  top: -2%
-  bottom: 68px
-  left: 70%
-  right: 0
 
-.cajon-b.lenguaje:before 
-  content: ''
-  display: block
-  position: absolute
-  opacity: .35
-  top: 3%
-  left: 0
-  right: 68%
-  bottom: 65%
+.cajon-b.lenguaje:before
+    content: ''
+    display: block
+    position: absolute
+    opacity: .35
+    top: 3%
+    left: 0
+    right: 67%
+    bottom: 58%
 .b16
   content: ''
   display: block
@@ -57,20 +48,39 @@
   left: 10%
   right: 0
 
-.bloque-texto-b.color-secundario.g:before
-  content: ''
-  display: block
-  position: absolute
-  top: 35%
-  bottom: 10px
-  left: 10%
-  right: 0%
+.bloque-texto-b:before 
+    content: ''
+    display: block
+    position: absolute
+    top: 29%
+    bottom: 25px
+    left: 7%
+    right: 0px
+
+.bloque-texto-b.python:before 
+    content: ''
+    display: block
+    position: absolute
+    top: 33%
+    bottom: 27px
+    left: 7%
+    right: 0
+
+.bloque-texto-b.python.color-secundario:before
+    background-color: #FFF3EA
+
+
+.bloque1
+  .prueba
+    .bloque-texto-b
+      &.colo-secundario:before 
+        background-color: #ffe7e3
+
+
+
 
 .bloque-texto-b.color-secundario:before 
     background-color: #FFE5CF
-
-.bloque-texto-b.color-secundario:before 
-    background-color: #fff3ea
 .bg-532
   background-color:#FFB476
 
@@ -81,6 +91,16 @@
 .img-t
   width: auto
   height: auto
+.bloque1 .prueba .bloque-texto-b.colo-secundario:before 
+    background-color: #ffe7e3
+.bloque-texto-b:before 
+    content: ''
+    display: block
+    position: absolute
+    top: 3%
+    bottom: 33px
+    left: 68%
+    right: 0
 
 
 .cajon-b.color-acento-contenido:before, .cajon-b.color-acento-botones:before
@@ -169,8 +189,7 @@
   border-color: #FF6148;
 
 
-.bloque-texto-d.color-secundario::before
-  background-color: #FFF1EF
+
 
 .tarjeta.color-primario
   background: linear-gradient(190deg, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%)  
@@ -362,31 +381,9 @@
   background-color: #FF6148
 .tabs-a__tab
     background-color: #E4E9EB;
-.bloque-texto-c.color-secundario
-  background-color: #FFF1EF
 
-.linea-tiempo-c__header__btn--right
-  background-color: #FF6148
-.linea-tiempo-c__header__btn--right:hover
-  border-color: #FF6148
-.linea-tiempo-c__header__btn--left
-  background-color: #FF6148
-.linea-tiempo-c__header__btn--left:hover
-  border-color: #FF6148
-.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
-  color: white;
-.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
-  border: 2px solid #fff;
-.tarjeta--transparent 
-    background-color: transparent;
-.bg-norepeat
-    background-repeat: no-repeat;
-.border-20-cus
-  border-radius: 20px;
-.vcolor
-  color: #FF6148
-.mt-2-cus
-    margin-top: 2rem !important;
+
+
 
 .bgw
   background-color: white
@@ -440,22 +437,6 @@ center.text-
   width: 80%
 
 
-.bg11
-  background-color: #FFE5CF
-  border-radius: 6px
-  &:hover
-    background-color: #FFB476
-.bg11:hover .bg12 
-  background-color: #FFF1E5;
-.bg-white
-  background-color: white;
-.color-green
-  color: #058160
-.color-black
-  color: black;
-.ulcolor
-  color: #FF6148
-
 .bg12
   background-color: #FFB476
   border-radius: 6px
@@ -470,68 +451,6 @@ center.text-
 .bg14
   background-color: #E8E8E8
   border-radius: 6px
-
-
-
-.img-w2
-  width: 33% !important
-  top: 5% !important
-
-
-
-.brad
-  border-radius: 20px
-
-
-.bg17
-  background-color: #FFF7F0
-  border-radius: 6px
-.bg18
-  background-color: #FFE5CF
-  border-radius: 6px;
-.bg19
-  background-color: #FFECDC
-
-.bg22
-  background-color: #FF6148
-  border-radius: 0 10px 10px 0
-.bg23
-  background-color: #FFB476
-  border-radius: 20px
-.bg24
-  background-color: #D7DEE0
-  border-radius: 20px
-.bg23, .bg24
-  width: 270px
-  height: 160px
-.img-pos-3
-  position: relative;
-  left: 15px;
-.mt-5-cus
-  margin-top: 1.5em;
-
-.bg-white-r
-  background-color: #FF6148;
-  border-radius: 6px
-
-
-
-.img-center-cus
-  position: relative
-  top: 35%
-.linea-tiempo-b__icon::after
-  left: 90%
-.linea-tiempo-b__icon
-  padding-top: 0%
-
-.linea-tiempo-b__row:nth-child(2n+1) .linea-tiempo-b__icon::after
-  right: 89%
-
-.linea-tiempo-b__row:nth-child(2n+1) .linea-tiempo-b__content
-  text-align: left
-
-.tarjeta.color-primario
-  background:#FF6148
 
 
 .lista-ul
@@ -681,35 +600,3 @@ center.text-
 .tarjeta-avatar-b__img 
     min-width: 15% !important;
     max-width: 15% !important;
-
-
-@media screen and (max-width: $bp-max-xs)
-  .slyder-a__bullets__item
-    margin: 0 4px
-  .w-img-cus,.w-img-cus-2
-    width: 50%;
-  .flex-sm-column-cus
-    flex-direction: column;
-  .he-4-cus
-    height: 100%
-  .w-75-cus
-    width: 50%
-  .mb-2-cus
-    margin-bottom: 0.5rem !important
-  
-
-@media screen and (max-width: $bp-max-md)
-  .slyder-a__bullets__item
-    margin: 0 4px
-  .w-img-cus
-    width: 50%;
-  .w-img-cus-2
-    width: 25%;
-  .flex-sm-column-cus
-    flex-direction: column;
-  .he-4-cus
-    height: 100%
-  .w-75-cus
-    width: 30%
-  .mb-2-cus
-    margin-bottom: 0.5rem !important

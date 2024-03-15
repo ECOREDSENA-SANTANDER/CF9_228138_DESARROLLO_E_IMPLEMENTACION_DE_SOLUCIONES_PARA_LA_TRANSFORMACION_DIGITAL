@@ -10,7 +10,7 @@
       h1 Introducción
       
     .bloque1.p-0.mb-5
-      .bloque-texto-b.intro.color-secundario.p-2.px-0.mb-0(data-aos="fade-left")
+      .bloque-texto-b.intros.color-secundario.p-2.px-0.mb-0(data-aos="fade-left")
         .bloque-texto-b__texto
           .row.justify-content.align-items-center.d-flex
             .col-lg-10.col-12

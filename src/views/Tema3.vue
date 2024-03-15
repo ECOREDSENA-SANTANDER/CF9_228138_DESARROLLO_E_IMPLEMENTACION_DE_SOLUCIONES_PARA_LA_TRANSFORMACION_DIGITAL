@@ -155,12 +155,13 @@
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema3/titulo.svg' style="max-width: 60px; left: 350px; position: absolute" data-aos="fade-left")
 
     .bloque1.p-0.mb-5
-      .bloque-texto-b.intro.color-secundario.p-8.px-0.mb-0(data-aos="fade-left")
-        .bloque-texto-b__texto
-          .row.justify-content.align-items-center.d-flex
-            .col-lg-10.col-12
-              p.mb-4 Dentro de las pruebas de funcionamiento se puede realizar el test de conectividad (Ver gráfico 4) mediante el valor de shapley ya que es un método de optimización de recursos y podemos aplicarlo a la conectividad o transmisión de paquetes, también mediante el ping podemos tomar los valores de conectividad de red.
-            .col-auto.my-3
+      .prueba
+        .bloque-texto-b.colo-secundario.p-8.px-0.mb-0(data-aos="fade-left")
+          .bloque-texto-b__texto
+            .row.justify-content.align-items-center.d-flex
+              .col-lg-10.col-12
+                p.mb-4 Dentro de las pruebas de funcionamiento se puede realizar el test de conectividad (Ver gráfico 4) mediante el valor de shapley ya que es un método de optimización de recursos y podemos aplicarlo a la conectividad o transmisión de paquetes, también mediante el ping podemos tomar los valores de conectividad de red.
+              .col-auto.my-3
                 img.mb-0(alt="" src="@/assets/curso/temas/tema3/subir.svg")
 
     .row.justify-content-center.align-items-start.mb-5

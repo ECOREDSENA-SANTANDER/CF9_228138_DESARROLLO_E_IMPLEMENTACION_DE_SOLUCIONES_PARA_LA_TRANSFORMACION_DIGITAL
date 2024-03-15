@@ -221,7 +221,7 @@
 
       .row
         .col-lg-12.mb-5.mb-lg-0
-          .bloque-texto-b.color-secundario.g.p-4
+          .bloque-texto-b.python.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p.mb-2 #[em Python] es un lenguaje de programación considerablemente utilizado en la mayor parte de las aplicaciones #[em web,] al realizar programas empresariales, la ciencia de datos y el #[em machine learning (ML).] Los programadores utilizan #[em Python] porque es eficientemente muy fácil de aprender, además de que se puede ejecutar en diferentes plataformas. El #[em software Python] es gratuito, se integra bien a todos las características de sistemas y aumenta la velocidad del desarrollo.

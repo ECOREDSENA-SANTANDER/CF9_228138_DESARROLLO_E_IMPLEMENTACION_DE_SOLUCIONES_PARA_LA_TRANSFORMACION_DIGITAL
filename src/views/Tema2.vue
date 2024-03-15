@@ -89,13 +89,13 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/estructura.jpg', alt='')
         .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-7.my-0
-        .bloque-texto-b.color-primario.p-4.mb-3
+        .bloque-texto-b.color-primario.p-4.mb-2
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-2 Un programa informático es una serie de acciones (instrucciones o comandos) que manejan un conjunto de objetos (datos e información), depende mucho el lenguaje que estés manejando para conformar su estructura. Los bloques que existen son declaraciones e instrucciones.
+            p.mb-0 Un programa informático es una serie de acciones (instrucciones o comandos) que manejan un conjunto de objetos (datos e información), depende mucho el lenguaje que estés manejando para conformar su estructura. Los bloques que existen son declaraciones e instrucciones.
             h5.d-flex.justify-content-end <br>(Inicio - Introducción a Ruby, 2018.).
               i.fas.fa-quote-right
-            p.mb-5(data-aos="fade-down") Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
+            p.mb-3(data-aos="fade-down") Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
     .row.justify-content-center.mb-4
       .col-lg-8
         .t
