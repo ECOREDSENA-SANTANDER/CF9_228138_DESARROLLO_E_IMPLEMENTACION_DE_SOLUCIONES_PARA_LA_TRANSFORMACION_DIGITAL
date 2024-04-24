@@ -13,7 +13,7 @@
         .bg138.p-3.mb-3
           .row.d-flex
             .col-lg-2.mx-0
-              img.img-a.img-t(src='@/assets/curso/temas/tema3/img1.svg', alt='')
+              img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema3/img1.svg', alt='')
             .col-lg-10.mx-0
               p.mb-2.my-2  Los dispositivos IoT cuentan con sensores que registran y transforman lo físico o químico en datos electrónicos que podemos manejar.
         p.mb-0 Cualquier dispositivo IoT permite conectarse a otros dispositivos y aplicaciones IoT para transmitir información utilizando protocolos estándar de Internet, veamos los siguientes:
@@ -24,10 +24,23 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4(data-aos="fade-down")
 
-
-          .row.justify-content-center.align-items-start.mb-5
-            .col-lg-10
-              img.img-a.img-t.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img33.png', alt='')
+        .row.justify-content-center 
+          .col-lg-10.col-md-10.col-10
+            img.img-a.img-t.mover.d-none.d-lg-block(src="@/assets/curso/temas/tema3/ahp.svg")
+            .tabla-a.color-acento-botones.ulim 
+              table
+                thead
+                  tr
+                    th.tst Aplicaciones para programar dispositivos loT
+                    th
+                tbody
+                  tr
+                    td.uno #[b #[.or Phyton]] <br><br>Es un lenguaje interpretado de alto nivel donde es uno de los lenguajes más populares para el desarrollo de IoT.
+                    td.dos.mx-5 #[b #[.or C]]<br><br> Es un lenguaje de nivel medio comprende toda la arquitectura de proyectos IoT por las grandes propiedades como la portabilidad y el número de bibliotecas que tiene.
+                  tr
+                    td.tres #[b #[.or Lua]]<br><br> Lenguaje de nivel alto maneja funciones de descripción de datos y para que funcione correctamente se incorpora a un cliente HOST.
+                    td.cuatro #[b #[.or Golang ]]<br><br> Go - aprovecha al máximo el hardware lo que lo hace útil y apropiado en IoT Java: esté código puede ejecutarse en cualquier plataforma para el adecuado desarrollo de proyectos de Internet de las cosas.
+              
     
           Separador
           #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -48,25 +61,51 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.2 Estándares de codificación y plantillas 
     p(data-aos="fade-down").mb-4 Los estándares de codificación concentran elementos de ingeniería sólidos para la programación en sus diferentes lenguajes y constituyen la base de cualquier orientación preventiva.
-    p Los estandares de calidad más relevantes en la construcción de #[em software,] de acuerdo con las normas ISO, son los siguientes
-    .col-lg-12.my-3
-          img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.2.png', alt='')
-   
+    p.mb-5 Los estandares de calidad más relevantes en la construcción de #[em software,] de acuerdo con las normas ISO, son los siguientes
+    
+    
+    .row.justify-content-center 
+      .col-lg-10.col-md-12.col-9
+        .bg11111t.p-4
+          h4.or.text-center.mb-5 Estándares de Calidad en la construcción de un software
+        img.img-a.img-t.movere.d-none.d-lg-block(src="@/assets/curso/temas/tema3/flechas.svg")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-sm-5.col-lg-3.mb-4.mb-lg-4
+            .pary1.p-2
+              h3.text-center.mb-3.my-3 #[.or Norma ISO 25000]
+              p.text-center La norma consta de 5 áreas enfocadas a la gestión, el modelo, la medición del mismo, los requisitos y la evaluación. Donde se asegura la máxima calidad y confianza en los desarrollos de software. 
+
+          .col-sm-5.col-lg-3.mb-4.mb-lg-4
+            .pary2.p-2
+              h3.text-center.mb-3.my-3 #[.or Norma ISO 9126]
+              p.text-center Esta norma se compone dentro de los estándares y plantillas en 6 aspectos que se deben tener en cuenta que son la funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad. Donde se puede conocer que los desarrollos de software cumplan con las necesidades de los usuarios.
+      
+          .col-sm-5.col-lg-3.mb-4.mb-lg-4
+            .pary3.p-2
+              h3.text-center.mb-3.my-3 #[.or Norma ISO 9001]
+              p.text-center Mediante el software de calidad, donde la confianza y reputación de los usuarios son los beneficios de este modelo de gestión.
+          
+          .col-sm-5.col-lg-3.mb-4.mb-lg-4
+            .pary4.p-2
+              h3.text-center.mb-3.my-3 #[.or Norma ISO 15504]
+              p.text-center Es la norma conocida por la mejora de procesos, contando con los estándares de calidad de software.
+
+
     p.mb-4 Las herramientas de integración aprueban a las organizaciones a conseguir una mayor eficiencia, productividad y agilidad ya que integra diferentes aplicaciones de #[em software] y servicios, interfaces de programación de aplicaciones (API) datos y dispositivos para automatizar los procesos empresariales y ofrecer al usuario.
     p.mb-4 Las herramientas de gestión de cambios son cualquier cosa que se pueda utilizar para aliviar las tensiones que surgen durante un cambio en el proceso, el personal o el #[em software.]
 
-    .row
-      .col-sm-6.col-lg-4.mb-4.mb-lg-4
+    .row.justify-content-center
+      .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4
           .row.justify-content-center.mb-4
             .col-4
               figure
-                img(src='@/assets/curso/temas/tema3/azure.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/Azure.svg', alt='Texto que describa la imagen')
 
           h3.text-center.mb-4 #[.or Azure Pipelines]
           p.text-center Son servicios en la nube que combina y realiza entrega continua, donde compila y prueba automáticamente el código para finalmente colocar el mismo a disposición de otros usuarios. 
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-4
+      .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4
           .row.justify-content-center.mb-4
             .col-4
@@ -76,12 +115,12 @@
           h3.text-center.mb-4 #[.or Jenkins]
           p.text-center Es una herramienta de integración continua, siendo la misma de código abierto y se puede configurar en entornos productivos.
       
-      .col-sm-6.col-lg-4.mb-4.mb-lg-4
+      .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4
           .row.justify-content-center.mb-4
             .col-4
               figure
-                img(src='@/assets/curso/temas/tema3/gitlab.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/Gitlab.svg', alt='Texto que describa la imagen')
 
           h3.text-center.mb-4 #[.or Gitlab]
           p.text-center Tiene un servicio en el cual se construye y prueba el software cada vez que el programador actualiza el repositorio.
@@ -92,8 +131,8 @@
       h2 3.3 Implementación de IoT
     
     .row.justify-content-center.align-items-start
-      .col-lg-4.col-md-10.col-12
-        img.img-a.img-t.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.3.svg', alt='')
+      .col-lg-4.col-md-8.col-9
+        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.3.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-3 Cuando miramos las implementaciones de proyectos en IoT pensamos que el conocimiento de inteligencia empresarial no deja de transformarse y, uno de los últimos negocios relevantes se debe a las aplicaciones IoT.
         p.mb-3 Se denomina aplicaciones IoT a las soluciones de #[em software] diseñadas para realizar tareas, en este caso, en base a la información procedente de dispositivos conectados a una red. Según datos de IDC, para el 2020, la cantidad de objetos conectados habrá alcanzado los 30 miles de millones, ofreciendo una oportunidad de ingresos de 1.7 miles de millones de dólares americanos, para el año 2030 la proyección sería de 125 mil millones conectados.
@@ -163,7 +202,7 @@
             .col-lg-10.col-12
               p.mb-4 Dentro de las pruebas de funcionamiento se puede realizar el test de conectividad (Ver gráfico 4) mediante el valor de #[em shapley] ya que es un método de optimización de recursos y podemos aplicarlo a la conectividad o transmisión de paquetes, también mediante el #[em ping] podemos tomar los valores de conectividad de red.
             .col-auto
-              img(alt="" src="@/assets/curso/temas/tema3/subir.svg")
+              img.img-a.img-t.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema3/subir.svg")
 
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-7
@@ -252,10 +291,10 @@
     .introducciones.bloque-texto-b.color-secundario
       .bloque-texto-b__texto
         .row.justify-content.align-items-center.d-flex
-          .col-lg-10.col-12
+          .col-lg-10.col-12.mb-4
             p Un dispositivo IoT, como su nombre indica, es un dispositivo que se conecta a internet para realizar alguna operación, ya sea almacenar datos, consultar un servicio, etc.
           .col-auto
-            img.im11(alt="" src="@/assets/curso/temas/tema3/documentacion.svg")
+            img.im11.img-a.img-t.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema3/documentacion.svg")
           .col-lg-10.col-12.mb-5 
             p.mb-5 Las pruebas loT, permite al usuario controlar dispositivos de forma remota a través de una red. El IoT testing es un nuevo enfoque de prueba que involucra un alcance más amplio y complejo de pruebas de software tradicionales.
           
