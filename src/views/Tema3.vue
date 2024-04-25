@@ -100,7 +100,7 @@
           .row.justify-content-center.mb-4
             .col-4
               figure
-                img(src='@/assets/curso/temas/tema3/Azure.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/imagene.svg', alt='Texto que describa la imagen')
 
           h3.text-center.mb-4 #[.or Azure Pipelines]
           p.text-center Son servicios en la nube que combina y realiza entrega continua, donde compila y prueba automáticamente el código para finalmente colocar el mismo a disposición de otros usuarios. 
@@ -120,7 +120,7 @@
           .row.justify-content-center.mb-4
             .col-4
               figure
-                img(src='@/assets/curso/temas/tema3/Gitlab.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/genes.svg', alt='Texto que describa la imagen')
 
           h3.text-center.mb-4 #[.or Gitlab]
           p.text-center Tiene un servicio en el cual se construye y prueba el software cada vez que el programador actualiza el repositorio.
