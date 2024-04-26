@@ -90,7 +90,7 @@
             .row.justify-content-center.mb-0(data-aos="fade-down")
       
               .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
-                .col-lg-5.col-md-7.my-5
+                .col-lg-5.col-md-7.col-8.my-5
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/c++.png', alt='')
                 
                 .col-lg-7
@@ -204,7 +204,7 @@
                           .anexo__texto
                             p #[b Enlace web.] paiza.io
                   .col-lg-6
-                    .dondo.p-4.mb-0(data-aos="fade-right")
+                    .dondo.p-2.mb-0(data-aos="fade-right")
                       .row.justify-content-left.align-items-center.d-flex
                         .col-lg-3.col-8
                           .d-flex.justify-content-center

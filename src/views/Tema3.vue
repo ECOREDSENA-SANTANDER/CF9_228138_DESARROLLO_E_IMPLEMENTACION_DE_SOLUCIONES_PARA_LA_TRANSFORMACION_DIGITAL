@@ -25,7 +25,7 @@
         .row.justify-content-center.mb-4(data-aos="fade-down")
 
         .row.justify-content-center 
-          .col-lg-10.col-md-10.col-10
+          .col-lg-10.col-md-12.col-10
             img.img-a.img-t.mover.d-none.d-lg-block(src="@/assets/curso/temas/tema3/ahp.svg")
             .tabla-a.color-acento-botones.ulim 
               table
@@ -35,11 +35,20 @@
                     th
                 tbody
                   tr
-                    td.uno #[b #[.or Phyton]] <br><br>Es un lenguaje interpretado de alto nivel donde es uno de los lenguajes más populares para el desarrollo de IoT.
-                    td.dos.mx-5 #[b #[.or C]]<br><br> Es un lenguaje de nivel medio comprende toda la arquitectura de proyectos IoT por las grandes propiedades como la portabilidad y el número de bibliotecas que tiene.
+                    td.uno #[b #[em #[.or Phyton]]] <br><br>Es un lenguaje interpretado de alto nivel<br> donde es uno de los lenguajes más<br> populares para el desarrollo de IoT.
+                    td.dos.mx-5 #[b #[em #[.or C]]]<br>
+                      p.mb-0 Es un lenguaje de nivel medio comprende 
+                      |
+                      p.mb-0 toda la arquitectura de proyectos IoT por
+                      | 
+                      p.mb-0 las grandes propiedades como la 
+                      |
+                      p.mb-0 portabilidad y el número de bibliotecas
+                      |
+                      p.mb-0 que tiene.
                   tr
-                    td.tres #[b #[.or Lua]]<br><br> Lenguaje de nivel alto maneja funciones de descripción de datos y para que funcione correctamente se incorpora a un cliente HOST.
-                    td.cuatro #[b #[.or Golang ]]<br><br> Go - aprovecha al máximo el hardware lo que lo hace útil y apropiado en IoT Java: esté código puede ejecutarse en cualquier plataforma para el adecuado desarrollo de proyectos de Internet de las cosas.
+                    td.tres #[b #[em #[.or Lua]]]<br><br> Lenguaje de nivel alto maneja funciones de descripción de datos y para que funcione correctamente se incorpora a un cliente HOST.
+                    td.cuatro #[b #[em #[.or Golang ]]]<br><br> Go - aprovecha al máximo el hardware lo que lo hace útil y apropiado en IoT Java: esté código puede ejecutarse en cualquier plataforma para el adecuado desarrollo de proyectos de Internet de las cosas.
               
     
           Separador
@@ -64,12 +73,10 @@
     p.mb-5 Los estandares de calidad más relevantes en la construcción de #[em software,] de acuerdo con las normas ISO, son los siguientes
     
     
-    .row.justify-content-center 
-      .col-lg-10.col-md-12.col-9
-        .bg11111t.p-4
-          h4.or.text-center.mb-5 Estándares de Calidad en la construcción de un software
-        img.img-a.img-t.movere.d-none.d-lg-block(src="@/assets/curso/temas/tema3/flechas.svg")
-        .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-4 
+      .col-lg-10.col-md-12.col-10
+        img.img-a.img-t.movere.d-none.d-lg-block.my-4(src="@/assets/curso/temas/tema3/flechas.jpg")
+        .row.justify-content-center.align-items-center.mb-4
           .col-sm-5.col-lg-3.mb-4.mb-lg-4
             .pary1.p-2
               h3.text-center.mb-3.my-3 #[.or Norma ISO 25000]
