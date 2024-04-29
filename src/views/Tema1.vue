@@ -147,7 +147,7 @@
               p.mb-4 Oracle Java está disponible en el Acuerdo de licencia de Oracle Technology Network para Oracle Java SE. Esta licencia permite utilizar Java con fines personales y de desarrollo de forma gratuita.
               p.mb-0 Java 18 (Oracle JDK 18) ofrece miles de mejoras en cuanto a rendimiento, estabilidad y seguridad, incluyendo nueve propuestas de mejora de la plataforma, impulsando así aún más la productividad de los desarrolladores.
         .col-lg-5.col-md-9.col-9
-          img(src="@/assets/curso/temas/tema1/img10.png")
+          img.d-none.d-lg-block(src="@/assets/curso/temas/tema1/img10.png")
       .row.justify-content-center
         .col-lg-5.col-md-9.col-9.mb-4
           img(src="@/assets/curso/temas/tema1/img11.png")
@@ -187,7 +187,7 @@
               img.peache.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg' data-aos="fade-left")
       
           p.mb-4 Es un lenguaje de código abierto muy reconocido sobre todo para el desarrollo web ya que el mismo puede ser fácilmente incrustado en HTML, una de las grandes ventajas es su simplicidad para aquellos desarrolladores principiantes, por medio de este lenguaje se generan páginas web dinámicas que frecuentemente su contenido cambia, debemos tener en cuenta que las páginas webs estáticas son las que sus contenidos permanecen siempre igual.
-          p.mb-5 El esquema de php funciona mediante una petición al servidor el mismo recibe la información necesaria realizando las consultas a bases de datos, otros servidores u otras páginas web, el servidor responde si es una página web normal estática, pero donde el diseño y creación del mismo ha sido dinámico.
+          p.mb-0 El esquema de php funciona mediante una petición al servidor el mismo recibe la información necesaria realizando las consultas a bases de datos, otros servidores u otras páginas web, el servidor responde si es una página web normal estática, pero donde el diseño y creación del mismo ha sido dinámico.
       
           .row.justify-content-center.align-items-center.mb-4
             .col-md-10.col-lg-12.col-10

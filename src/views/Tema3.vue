@@ -139,7 +139,7 @@
     
     .row.justify-content-center.align-items-start
       .col-lg-4.col-md-8.col-9
-        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.3.svg', alt='')
+        img.img-a.img-t.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.3.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-3 Cuando miramos las implementaciones de proyectos en IoT pensamos que el conocimiento de inteligencia empresarial no deja de transformarse y, uno de los últimos negocios relevantes se debe a las aplicaciones IoT.
         p.mb-3 Se denomina aplicaciones IoT a las soluciones de #[em software] diseñadas para realizar tareas, en este caso, en base a la información procedente de dispositivos conectados a una red. Según datos de IDC, para el 2020, la cantidad de objetos conectados habrá alcanzado los 30 miles de millones, ofreciendo una oportunidad de ingresos de 1.7 miles de millones de dólares americanos, para el año 2030 la proyección sería de 125 mil millones conectados.
@@ -149,13 +149,17 @@
           ul.lista-ul--color.mx-4.my-0.mb-3
             li.mb-0 
               i.fas.fa-play
-              p #[.or #[b Tráfico:&nbsp;]] como proyectos en Vehículos, Semáforos
+              span
+                strong.or #[b Tráfico: ] 
+                | como proyectos en Vehículos, Semáforos
             li.mb-0
               i.fas.fa-play
               p #[.or #[b Objetos personales:&nbsp;]] Ropa, zapatos 
             li.mb-0
               i.fas.fa-play
-              p #[.or #[b Hogar:&nbsp;]] Timbre, Garaje, Puertas hogar, Electrodomésticos
+              span
+                strong.or #[b Hogar: ] 
+                | Timbre, Garaje, Puertas hogar, Electrodomésticos
             li.mb-0
               i.fas.fa-play
               p #[.or #[b Equipos electrónicos:&nbsp;]]todos

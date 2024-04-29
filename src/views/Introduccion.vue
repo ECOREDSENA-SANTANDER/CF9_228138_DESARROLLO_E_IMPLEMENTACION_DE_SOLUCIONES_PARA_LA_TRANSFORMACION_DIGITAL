@@ -15,7 +15,7 @@
           .col-lg-10.col-12
             p En este componente formativo, tendrá la capacidad de crear aplicaciones que gestionen recursos IoT a través de sistemas de información basado en tecnología de punta, así mismo, dispondrá de la apropiación de conocimiento para realizar pruebas del código desarrollado o de otras soluciones que analicen y midan la eficacia y eficiencia de un aplicativo.<br><br>
           .col-auto.im11
-            img(alt="" src="@/assets/curso/portada/img01.svg")
+            img.d-none.d-lg-block(alt="" src="@/assets/curso/portada/img01.svg")
           .col-lg-10.col-12.mb-4  
             p.mb-5 La tecnología IoT son dispositivos que están conectados a una red de datos sea Internet o local, a nivel de desarrollo de software muchas aplicaciones se deben crear para la interacción con estos dispositivos. Veamos este tipo de programación:
           
