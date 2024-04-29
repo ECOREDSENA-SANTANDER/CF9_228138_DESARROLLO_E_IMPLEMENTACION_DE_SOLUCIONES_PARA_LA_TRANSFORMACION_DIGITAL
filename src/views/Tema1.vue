@@ -48,7 +48,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.col-12.mb-lg-4.mb-4(data-aos="fade-right")
-          img(src="@/assets/curso/temas/tema1/img01.jpg")
+          img(src="@/assets/curso/temas/tema1/img01.jpg" alt='En la siguiente imagen, se expone una entidad para este caso, un perro y al frente una gato, debajo de cada uno se detallan características como: Tipo de animal, Clases, Atributos como el nombre asignado por humano y la  edad. Finalmente se describen los métodos que en este caso son comer y correr respectivamente. ')
         .col-lg-5.mb-lg-4.mb-4
           .bg-532.p-3
             p.mb-4 A partir de está clase se pueden crear las instancias, es decir, cuando la clase cuenta con memoria en el sistema operativo que va a operar sobre el software.

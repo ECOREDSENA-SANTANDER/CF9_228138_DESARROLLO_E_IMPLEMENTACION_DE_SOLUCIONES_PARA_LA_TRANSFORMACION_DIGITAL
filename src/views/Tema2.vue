@@ -109,7 +109,7 @@
           span Estructura de un programa en Ruby 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-8.col-md-12.col-12.mb-lg-4.mb-5(data-aos="fade-right")
-        img(src="@/assets/curso/temas/tema2/figura.svg")
+        img(src="@/assets/curso/temas/tema2/figura.svg", alt='En la siguiente imagen se expone una progresión o pasos secuenciales en una tarea, para este caso “el programa Ruby”.  Se identifica primero el ingreso de datos como etapa de inicio de programa, siguiendo la secuencia se introducen los cálculos en el proceso de programa, y para finalizar se ingresan los resultados con lo cual se concluye la secuencia que se orienta hacia la derecha. ')
 
     
     .row.justify-content-center
@@ -235,7 +235,7 @@
             span Conexion base de datos 
           .col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema2/img002.jpg', alt='imagen decorativa')  
+              img(src='@/assets/curso/temas/tema2/img002.jpg', alt='Consultar en la imagen el vínculo dinámico entre cliente PC, Servidor Web y Base de datos. Lo cual se expone en tres figuras geométricas en su orden Triangulo, cuadrado y cilindro, conectadas por fechas')  
 
           .col-lg-6(data-aos="fade-left")
             .bg14.p-3.mb-0
