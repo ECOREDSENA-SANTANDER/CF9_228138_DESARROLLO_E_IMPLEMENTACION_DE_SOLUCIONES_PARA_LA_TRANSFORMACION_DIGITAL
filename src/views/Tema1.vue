@@ -40,7 +40,7 @@
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Un objeto
           img.objeto1.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg' data-aos="fade-left")
 
-      p.mb-4 Se puede ver en el gŕafico 1. Una entidad “perro” ,”gato”, “ardilla” tiene una clase asociada “animal”. Está clase animal posee unas características propias que lo distinguen unos de otros, por ejemplo, edad , nombre, raza , entre otros. A su vez, el animal tiene acciones como “comer”, “dormir” y “correr” .  
+      p.mb-4 Se puede ver en el gŕafico 1. Una entidad “perro” ,”gato”, “ardilla” tiene una clase asociada “animal”. Esta clase animal posee unas características propias que lo distinguen unos de otros, por ejemplo, edad , nombre, raza , entre otros. A su vez, el animal tiene acciones como “comer”, “dormir” y “correr” .  
       
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
             h5 Figura 1 
@@ -107,7 +107,7 @@
                       img.img-a.img-t.faschektt.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
                       .bloque-texto-b__texto.mx-5
                         .col-lg-12.col-md-12.col-12
-                          p Definición de clases. Los datos de una clase se pueden guardar en una estructura. De hecho, en C++ un struct no es otra cosa que una clase con todos los miembros públicos. Como C no permite métodos, usamos funciones globales. El equivalente de C++ 
+                          p Definición de clases. Los datos de una clase se pueden guardar en una estructura. De hecho, en C++ un struct no es otra cosa que una clase con todos los miembros públicos. Como C no permite métodos, usamos funciones globales. El equivalente de C++.
                           h5.d-flex.justify-content-end.my-2 (Sierra, 2015).
                             i.fas.fa-quote-right.d-none.d-lg-block
                     .row.align-items-center.justify-content-center
@@ -128,7 +128,7 @@
               .col-lg-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-0 Java es un lenguaje de programación que opera por medio de una plataforma informática Java, hay cuatro ediciones principales de Java: Java Standard Edition (Java SE) Java Enterprise Edition (Java EE) Java Micro Edition (Java ME) 
+              p.mb-0 Java es un lenguaje de programación que opera por medio de una plataforma informática Java, hay cuatro ediciones principales de Java: Java Standard Edition (Java SE) Java Enterprise Edition (Java EE) Java Micro Edition (Java ME).
             .row(titulo="Evoluciones")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
@@ -139,7 +139,7 @@
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-0 Concientizan el tiempo de ejecución y la aplicación de Java, para su correcto funcionamiento se debe instalar Java para escritorio. Encontramos muchas aplicaciones del lenguaje Java en casi todos los campos, ya sea una aplicación o desarrollo web, big data, Inteligencia Artificial, desarrollo móvil, etc
+              p.mb-0 Concientizan el tiempo de ejecución y la aplicación de Java, para su correcto funcionamiento se debe instalar Java para escritorio. Encontramos muchas aplicaciones del lenguaje Java en casi todos los campos, ya sea una aplicación o desarrollo web, big data, Inteligencia Artificial, desarrollo móvil, etc.
             .row(titulo="Sitio web Java.com")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0

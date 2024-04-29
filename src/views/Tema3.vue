@@ -189,7 +189,7 @@
                 ul.lista-ul--color.mx-4
                   li.mb-0
                     i.fas.fa-play
-                    span Opciones incoherentes no deseadas
+                    span Opciones incoherentes no deseadas.
                   li.mb-0
                     i.fas.fa-play
                     span Opción obsoletas en la configuración esto se puede dar según las migraciones o cambios que tenga la arquitectura de #[em hardware. ]
