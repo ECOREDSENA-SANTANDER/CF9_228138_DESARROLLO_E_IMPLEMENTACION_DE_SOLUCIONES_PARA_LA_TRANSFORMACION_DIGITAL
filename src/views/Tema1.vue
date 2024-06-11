@@ -10,11 +10,11 @@
       .cajon-b.lenguaje.color-secundario.mb-4.py-0
         .row.align-items-center.justify-content-center
           .col-auto.my-3.mx-2
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img02.png', alt='')
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/subir.svg', alt='')
           .col-lg-10.col-md-12.col-12.my-3
-            p(data-aos="fade-down") La programación orientada a objetos se conoce como un paradigma o un modelo de programación, no es un lenguaje específico, o una tecnología sino una forma específica de programar, más cercana a cómo expresaremos las cosas en la vida real que otros lenguajes de programación.  
+            p(data-aos="fade-down") La programación orientada a objetos se conoce como un paradigma o un modelo de programación, en vez de tratarse de un lenguaje específico o una tecnología, se trata de una forma específica de programar, similar a la manera en la que nos expresamos.
 
-          p.mb-3(data-aos="fade-down") Lenguajes modernos como #[em Java, C# y Python,] utilizan paradigmas para definir los programas, siendo las más populares dentro de la POO esta aprueba que el código sea reutilizable, organizado y fácil de conservar. Alcanza el principio de desarrollo de #[em software] manejado por varios programadores(Roman, 2013). 
+          p.mb-3(data-aos="fade-down") Lenguajes modernos como #[em Java, C# y Python,] utilizan paradigmas para definir los programas, siendo las más populares dentro de la #[em POO] esta aprueba que el código sea reutilizable, organizado y fácil de conservar. Alcanza el principio de desarrollo de #[em software] manejado por varios programadores (Roman, 2013). 
           p.mb-0 El primer y más importante concepto que debemos tener en cuenta de la #[em POO] es la distinción entre clase y objeto.  
 
 
@@ -40,7 +40,8 @@
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Un objeto
           img.objeto1.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg' data-aos="fade-left")
 
-      p.mb-4 Se puede ver en el gŕafico 1. Una entidad “perro” ,”gato”, “ardilla” tiene una clase asociada “animal”. Esta clase animal posee unas características propias que lo distinguen unos de otros, por ejemplo, edad , nombre, raza , entre otros. A su vez, el animal tiene acciones como “comer”, “dormir” y “correr” .  
+      p.mb-4 Es un tipo de entidad que cuenta con propiedades (datos) y comportamientos (métodos).
+      p.mb-4 En la siguiente figura se presenta un gráfico donde las entidades: Perro ,Gato, Ardilla están asociadas a una clase: “Animal”. Esta clase posee unas características propias que diferencian a las entidades entre sí: edad , nombre, raza , entre otros. A su vez, la clase “Animal” tiene acciones como: Comer, Dormir, y Correr. 
       
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
             h5 Figura 1 
@@ -52,8 +53,8 @@
         .col-lg-5.mb-lg-4.mb-4
           .bg-532.p-3
             p.mb-4 A partir de está clase se pueden crear las instancias, es decir, cuando la clase cuenta con memoria en el sistema operativo que va a operar sobre el software.
-            p.mb-0 De está forma, se pueden crear las instancias para un Perro de nombre=”Yoni”  con una edad de “5” años o bien la representación de un gato de nombre=”Milu” y de edad=”1” año.  Los dos están a partir de la clase animal, pero son dos instancias diferentes. Por lo que al llamar a sus métodos logra poseer resultados diferentes. Los dos comparten la lógica de sus requerimientos funcionales, pero cada uno de forma independiente tiene su estado.
-        p.mb-0 En estos términos, la programación orientada a objetos ofrece una forma de abstraer entidades del mundo real, a partir de cuatro(4) principios a nombrar:
+            p.mb-0 De está forma, se pueden crear las instancias para un Perro de nombre= ”Yoni”  con una edad de “5” años o bien la representación de un gato de nombre= ”Milu” y de edad= ”1” año.  Los dos están a partir de la clase animal, pero son dos instancias diferentes. Por lo que al llamar a sus métodos logra poseer resultados diferentes. Los dos comparten la lógica de sus requerimientos funcionales, pero cada uno de forma independiente tiene su estado.
+        p.mb-0 En estos términos, la programación orientada a objetos ofrece una forma de abstraer entidades del mundo real, a partir de cuatro (4) principios a nombrar:
       
       .row.justify-content-center
         .col-lg-7.col-md-12.col-12.mb-4
@@ -73,9 +74,9 @@
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
                 p.mb-3 <h3> El polimorfismo</h3>
-                p.mb-5 Capacidad que tienen las clases y/u operaciones para hacer la misma función en diferentes contextos o dominios. En el caso particular, no es lo mismo “comer para un perro” que “comer para un gato”, los dos objetos tendrán el mismo método pero diferente acción sobre.
+                p.mb-5 Capacidad que tienen las clases y/u operaciones para hacer la misma función en diferentes contextos o dominios. En el caso particular, no es lo mismo “comer para un perro” que “comer para un gato”, los dos objetos tendrán el mismo método pero diferente acción.
         .col-lg-5.col-9.col.md-9.mb-4(data-aos="fade-right")
-          img.img-a.img-t(src="@/assets/curso/temas/tema1/img08.png").mb-5
+          img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/temas/tema1/img08.png").mb-5
 
 
       .mb-4.d-flex
@@ -83,7 +84,7 @@
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em C++]
           img.cemas.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg'  data-aos="fade-left")
 
-      p.mb-0 Es un lenguaje de programación orientado a objetos. Los cuatro principios básicos de la programación orientada a objetos son: Abstracción: modelar los atributos e interacciones pertinentes de las entidades como clases para definir una representación abstracta de un sistema.
+      p.mb-0 C++ es un lenguaje de programación orientada a objetos que evolucionó de la extensión de lenguaje informático C. C++ se utiliza para realizar programación estructurada de alto nivel y rendimiento, como sistemas operativos, videojuegos y aplicaciones en la nube. C++ también se emplea para desarrollar #[em software] de bajo nivel, como controladores de dispositivos.
 
         .row.fondo-pink.justify-content-center.align-items-center.py-4.py-md-0.mb-5
           .col-lg-12.col-12.px-lg-5.px-4
@@ -98,7 +99,7 @@
                     img.img-a.img-t.faschek.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
                     .bloque-texto-b__texto.px-4
                       .col-lg-12.col-md-12.col-12
-                        p.mb-5 En lenguaje como C++ donde los mismos están diseñados dentro de la Programación orientada a Objetos, si dentro del programa a realizar todos los miembros de una clase son públicos y estáticos, en aquel momento equivalen a variables y funciones globales con el prefijo «NombreDeClase:» 
+                        p.mb-5 En lenguaje como C++ donde se diseña dentro de la Programación orientada a Objetos, si dentro del programa a realizar todos los miembros de una clase son públicos y estáticos, en aquel momento equivalen a variables y funciones globales con el prefijo «NombreDeClase:» 
                         h5.d-flex.justify-content-end.my-2 (Gervais, 2016).
                           i.fas.fa-quote-right.d-none.d-lg-block
         
@@ -107,7 +108,7 @@
                       img.img-a.img-t.faschektt.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
                       .bloque-texto-b__texto.mx-5
                         .col-lg-12.col-md-12.col-12
-                          p Definición de clases. Los datos de una clase se pueden guardar en una estructura. De hecho, en C++ un struct no es otra cosa que una clase con todos los miembros públicos. Como C no permite métodos, usamos funciones globales. El equivalente de C++.
+                          p Definición de clases: Los datos de una clase se pueden guardar en una estructura, de hecho, en C++ un #[em struct] no es otra cosa que una clase con todos los miembros públicos. Como C no permite métodos, usamos funciones globales. El equivalente de C++. 
                           h5.d-flex.justify-content-end.my-2 (Sierra, 2015).
                             i.fas.fa-quote-right.d-none.d-lg-block
                     .row.align-items-center.justify-content-center
@@ -128,24 +129,29 @@
               .col-lg-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-0 Java es un lenguaje de programación que opera por medio de una plataforma informática Java, hay cuatro ediciones principales de Java: Java Standard Edition (Java SE) Java Enterprise Edition (Java EE) Java Micro Edition (Java ME).
+              p.mb-0 #[em Java] es un lenguaje de programación que opera por medio de una plataforma informática #[em Java], hay cuatro ediciones principales de #[em Java: Java Standard Edition (Java SE) Java Enterprise Edition (Java EE) Java Micro Edition (Java ME).]
             .row(titulo="Evoluciones")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-4 Ha tenido constantes evoluciones desde sus inicios, Java nace en 1991 con el nombre “OAK”, posteriormente cambiado por Green por problemas legales, y finalmente con la denominación actual JAVA.
-              p.mb-0 El objetivo de Java era crear un lenguaje de programación parecido a C++ en estructura y sintaxis, fuertemente orientado a objetos, pero con una máquina virtual propia.
+              p.mb-4 Ha tenido constantes evoluciones desde sus inicios, 
+                strong.resaltado #[b #[em Java]]   
+                |  nace en 1991 con el nombre “OAK”, posteriormente cambiado por Green por problemas legales, y finalmente con la denominación actual 
+                strong.resaltado #[b #[em JAVA.]]
+              p.mb-0 El objetivo de 
+                strong.resaltado #[b #[em Java]]  
+                |  era crear un lenguaje de programación parecido a C++ en estructura y sintaxis, fuertemente orientado a objetos, pero con una máquina virtual propia.
             .row(titulo="Aplicaciones Java modernas")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-0 Concientizan el tiempo de ejecución y la aplicación de Java, para su correcto funcionamiento se debe instalar Java para escritorio. Encontramos muchas aplicaciones del lenguaje Java en casi todos los campos, ya sea una aplicación o desarrollo web, big data, Inteligencia Artificial, desarrollo móvil, etc.
+              p.mb-0 Concientizan el tiempo de ejecución y la aplicación de #[em Java,] para su correcto funcionamiento se debe instalar #[em Java] para escritorio. Encontramos muchas aplicaciones del lenguaje #[em Java] en casi todos los campos, ya sea una aplicación o desarrollo #[em web,] big data, Inteligencia Artificial, desarrollo móvil, etc.
             .row(titulo="Sitio web Java.com")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-4 Oracle Java está disponible en el Acuerdo de licencia de Oracle Technology Network para Oracle Java SE. Esta licencia permite utilizar Java con fines personales y de desarrollo de forma gratuita.
-              p.mb-0 Java 18 (Oracle JDK 18) ofrece miles de mejoras en cuanto a rendimiento, estabilidad y seguridad, incluyendo nueve propuestas de mejora de la plataforma, impulsando así aún más la productividad de los desarrolladores.
+              p.mb-4 #[em Oracle Java] está disponible en el Acuerdo de licencia de #[em Oracle Technology Network] para #[em Oracle Java SE.] Esta licencia permite utilizar #[em Java] con fines personales y de desarrollo de forma gratuita.
+              p.mb-0 #[em Java] 18 #[em (Oracle JDK 18)] ofrece miles de mejoras en cuanto a rendimiento, estabilidad y seguridad, incluyendo nueve propuestas de mejora de la plataforma, impulsando así aún más la productividad de los desarrolladores.
         .col-lg-5.col-md-9.col-9
           img.d-none.d-lg-block(src="@/assets/curso/temas/tema1/img10.png")
       .row.justify-content-center
@@ -158,23 +164,23 @@
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-0 Es escalable para los proyectos, es decir, permite acoplar más tecnologías según vayan dándose las necesidades del software. Y Java SE es Edición Estándar.                              
+              p.mb-0 Es escalable para los proyectos, es decir, permite acoplar más tecnologías según vayan dándose las necesidades del #[em software.] Y #[em Java] SE es Edición Estándar.                              
             .row(titulo="Requisitos para programar Java")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-0 Debe tener una sólida comprensión de la programación orientada a objetos. Estar familiarizado con varios diseños y patrones arquitectónicos. Habilidad para escribir bibliotecas en lenguaje Java reutilizables. Conocimiento de los patrones de concurrencia en Java.
+              p.mb-0 Debe tener una sólida comprensión de la programación orientada a objetos. Estar familiarizado con varios diseños y patrones arquitectónicos. Habilidad para escribir bibliotecas en lenguaje #[em Java] reutilizables. Conocimiento de los patrones de concurrencia en #[em Java.]
             .row(titulo="Aplicación de uso personal")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-4 Si quiere descargar la aplicación de uso personal es gratuita donde se contará con todos los kits de desarrollo y herramientas útiles y compatibles. Para instalar java puede consultar el siguiente tutorial en línea:&nbsp;
+              p.mb-3 Si quiere descargar la aplicación de uso personal es gratuita donde se contará con todos los kits de desarrollo y herramientas útiles y compatibles. Para instalar java puede consultar el siguiente tutorial en línea:&nbsp;
                 p.mb-0
                 a.en.mb-3(href="https://www.java.com/es/download/help/windows_manual_download.html" target="_blank")
                   span.mb-4.orr https://www.java.com/es/download/help/windows_manual_download.html
                 p.mb-0 En la plataforma Link: 
-                a.en.mb-3(href="https://www.jdoodle.com/online-java-compiler/" target="_blank")
-                  span.mb-4.orr  https://www.jdoodle.com/online-java-compiler/
+                a.en.mb-0(href="https://www.jdoodle.com/online-java-compiler/" target="_blank")
+                  span.mb-0.orr  https://www.jdoodle.com/online-java-compiler/
       
       .mb-5
       .row.fondo6.align-items-center.py-4.py-md-3
@@ -186,8 +192,8 @@
               h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em PHP]
               img.peache.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg' data-aos="fade-left")
       
-          p.mb-4 Es un lenguaje de código abierto muy reconocido sobre todo para el desarrollo web ya que el mismo puede ser fácilmente incrustado en HTML, una de las grandes ventajas es su simplicidad para aquellos desarrolladores principiantes, por medio de este lenguaje se generan páginas web dinámicas que frecuentemente su contenido cambia, debemos tener en cuenta que las páginas webs estáticas son las que sus contenidos permanecen siempre igual.
-          p.mb-0 El esquema de php funciona mediante una petición al servidor el mismo recibe la información necesaria realizando las consultas a bases de datos, otros servidores u otras páginas web, el servidor responde si es una página web normal estática, pero donde el diseño y creación del mismo ha sido dinámico.
+          p.mb-4 Es un lenguaje de código abierto muy reconocido sobre todo para el desarrollo #[em web] ya que el mismo puede ser fácilmente incrustado en #[em HTML], una de las grandes ventajas es su simplicidad para aquellos desarrolladores principiantes, por medio de este lenguaje se generan páginas #[em web] dinámicas que frecuentemente cambian su contenido, se debe tener en cuenta que las páginas #[em web] estáticas son las que sus contenidos permanecen siempre igual.
+          p.mb-0 El esquema de #[em php] funciona mediante una petición al servidor, el mismo recibe la información necesaria realizando las consultas a bases de datos, otros servidores u otras páginas #[em web], el servidor responde si es una página #[em web] normal estática, pero donde el diseño y creación del mismo ha sido dinámico.
       
           .row.justify-content-center.align-items-center.mb-4
             .col-md-10.col-lg-12.col-10
@@ -228,14 +234,14 @@
           img.rubyyy.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg' data-aos="fade-left")
       
       
-      p.mb-4 #[em Ruby] es un lenguaje de programación interpretado, abstraído y orientado a objetos su licencia es distribuida bajo #[em software] libre, todos los tipos de datos son con objeto, clases, métodos, es descrito como un lenguaje multiparadigma, permitiendo programación procedimental.  
+      p.mb-4 #[em Ruby] es un lenguaje de programación interpretado, abstraído y orientado a objetos, su licencia es distribuida bajo #[em software] libre, todos los tipos de datos son con objeto, clases, métodos, es descrito como un lenguaje multiparadigma, permitiendo programación procedimental.
 
       .row.justify-content-center.mb-5
         .col-lg-7.col-md-12.col-12.mb-lg-0
           .bloque-texto-b.rubby.color-secundario.p-3
             img.img-a.img-t.faschek.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
             .bloque-texto-b__texto.px-4
-              p Se utiliza en su mayoría en el desarrollo de aplicaciones web, pero también se utiliza para otros tipos de desarrollo en streaming. Ruby maneja estrechamente el paradigma de POO, así que estas variables son privadas y no logran verse desde fuera de la clase, toda comunicación que se realiza entre objetos se hace con los métodos. Se caracteriza por un lenguaje dinámico, ya que los programas en Ruby no se compilan, todo el código de clases, módulos y métodos se realiza por medio de un intérprete.
+              p Se utiliza en su mayoría en el desarrollo de aplicaciones #[em web,] pero también se utiliza para otros tipos de desarrollo en streaming. #[em Ruby] maneja estrechamente el paradigma de #[em POO,] así que estas variables son privadas y no logran verse desde fuera de la clase, toda comunicación que se realiza entre objetos se hace con los métodos. Se caracteriza por un lenguaje dinámico, ya que los programas en #[em Ruby] no se compilan, todo el código de clases, módulos y métodos se realiza por medio de un intérprete.
               h5.d-flex.justify-content-end.my-2 (Cupul, 2021).
                 i.fas.fa-quote-right.d-none.d-lg-block
           .row.justify-content-center
@@ -254,7 +260,7 @@
                         p #[b Enlace web]. #[em Code, create, and learn together with Ruby]
                     p.text-white.my-1 #[b Programa: puts ‘Hello, world!’]
         .col-lg-5.col-md-7.col-9.my-3
-          img.img-a.img-t(src='@/assets/curso/temas/tema1/ruby.png', alt='')
+          img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema1/ruby.png', alt='')
     
       
       .mb-4.d-flex

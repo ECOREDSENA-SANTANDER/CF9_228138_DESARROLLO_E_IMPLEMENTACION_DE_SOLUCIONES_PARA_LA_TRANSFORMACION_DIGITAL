@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p Para programar en IoT se puede realizar en #[em Java, lenguaje C, Python, JavaScript] son algunos de los lenguajes más importantes que se utilizan en el desarrollo de IoT.
+        p Los lenguajes más importantes y utilizados en el desarrollo de Internet de las cosas- #[em IoT]  son #[em Java,] lenguaje C, #[em Python y JavaScript] 
         .bg138.p-3.mb-3
           .row.d-flex
             .col-lg-2.mx-0
@@ -18,7 +18,7 @@
               p.mb-2.my-2  Los dispositivos IoT cuentan con sensores que registran y transforman lo físico o químico en datos electrónicos que podemos manejar.
         p.mb-0 Cualquier dispositivo IoT permite conectarse a otros dispositivos y aplicaciones IoT para transmitir información utilizando protocolos estándar de Internet, veamos los siguientes:
       .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src="@/assets/curso/temas/tema3/img302.png")
+          img.d-none.d-lg-block(src="@/assets/curso/temas/tema3/img302.png")
 
     .row.fondo-t3.align-items-center.py-4.py-md-5
       .col-lg-12.col-12.px-lg-5.px-4
@@ -47,8 +47,8 @@
                       |
                       p.mb-0 que tiene.
                   tr
-                    td.tres #[b #[em #[.or Lua]]]<br><br> Lenguaje de nivel alto maneja funciones de descripción de datos y para que funcione correctamente se incorpora a un cliente HOST.
-                    td.cuatro #[b #[em #[.or Golang ]]]<br><br> Go - aprovecha al máximo el hardware lo que lo hace útil y apropiado en IoT Java: esté código puede ejecutarse en cualquier plataforma para el adecuado desarrollo de proyectos de Internet de las cosas.
+                    td.tres #[b #[em #[.or Lua]]]<br><br> Lenguaje de nivel alto maneja funciones de descripción de datos y para que funcione correctamente se incorpora a un cliente #[em HOST.]
+                    td.cuatro #[b #[em #[.or Golang ]]]<br><br> #[em Go] - aprovecha al máximo el #[em hardware] lo que lo hace útil y apropiado en IoT #[em Java:] esté código puede ejecutarse en cualquier plataforma para el adecuado desarrollo de proyectos de Internet de las cosas.
               
     
           Separador
@@ -62,8 +62,9 @@
             .row.justify-content-center.mb-5
               .col-lg-10.col-md-10.col-12
                 .bloque-texto-a__texto.p-5
-                  p.mb-0 Un entorno de desarrollo o IDE es un #[em software] que combina en un solo lugar todas las herramientas para poder desarrollar un proyecto de #[em software], la combinación de varios procesos de programación, cuentan con un editor, compilador, un desbloqueador de las gestiones de código genérico, las mismas se dan en entornos de los lenguajes de desarrollo #[em Python y Java,] los sistémicos y programadores pueden testear por medio de estos entornos de desarrollo los diferentes segmentos de código, esto para poder identificar cualquier error de la aplicación antes de salir al mercado. 
-      
+                  p.mb-4 Un entorno de desarrollo o #[em IDE] es un #[em software] que combina en un solo lugar todas las herramientas para desarrollar un proyecto, se puede decir que es la combinación de varios procesos de programación. 
+                  p.mb-4 Los entornos de desarrollo cuentan con un editor, un compilador, y un desbloqueador de las gestiones de código genérico, las cuales se dan en entornos de los lenguajes de desarrollo #[em Python y Java.] 
+                  p.mb-0 Por medio de los entornos de desarrollo, los programadores pueden testear los diferentes segmentos de código, con esto se logra identificar cualquier error de la aplicación antes de salir al mercado.
     p.mb-0 Los #[em frameworks] pueden ser una de las herramientas más importantes para los programadores en general. Se trata de toda una base de datos en las que se establecen proyectos completos, y que pueden ser utilizados las veces necesarias. 
 
     Separador    
@@ -80,25 +81,25 @@
           .col-sm-5.col-lg-3.mb-4.mb-lg-4
             .pary1.p-2
               h3.text-center.mb-3.my-3 #[.or Norma ISO 25000]
-              p.text-center La norma consta de 5 áreas enfocadas a la gestión, el modelo, la medición del mismo, los requisitos y la evaluación. Donde se asegura la máxima calidad y confianza en los desarrollos de software. 
+              p.text-center La norma consta de 5 áreas enfocadas a la gestión, el modelo, la medición del mismo, los requisitos y la evaluación. Donde se asegura la máxima calidad y confianza en los desarrollos de #[em software.] 
 
           .col-sm-5.col-lg-3.mb-4.mb-lg-4
             .pary2.p-2
               h3.text-center.mb-3.my-3 #[.or Norma ISO 9126]
-              p.text-center Esta norma se compone dentro de los estándares y plantillas en 6 aspectos que se deben tener en cuenta que son la funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad. Donde se puede conocer que los desarrollos de software cumplan con las necesidades de los usuarios.
+              p.text-center Esta norma se compone dentro de los estándares y plantillas en 6 aspectos que se deben tener en cuenta que son la funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad. Donde se puede conocer que los desarrollos de #[em software] cumplan con las necesidades de los usuarios.
       
           .col-sm-5.col-lg-3.mb-4.mb-lg-4
             .pary3.p-2
               h3.text-center.mb-3.my-3 #[.or Norma ISO 9001]
-              p.text-center Mediante el software de calidad, donde la confianza y reputación de los usuarios son los beneficios de este modelo de gestión.
+              p.text-center Mediante el #[em software] de calidad, donde la confianza y reputación de los usuarios son los beneficios de este modelo de gestión.
           
           .col-sm-5.col-lg-3.mb-4.mb-lg-4
             .pary4.p-2
               h3.text-center.mb-3.my-3 #[.or Norma ISO 15504]
-              p.text-center Es la norma conocida por la mejora de procesos, contando con los estándares de calidad de software.
+              p.text-center Es la norma conocida por la mejora de procesos, contando con los estándares de calidad de #[em software.]
 
 
-    p.mb-4 Las herramientas de integración aprueban a las organizaciones a conseguir una mayor eficiencia, productividad y agilidad ya que integra diferentes aplicaciones de #[em software] y servicios, interfaces de programación de aplicaciones (API) datos y dispositivos para automatizar los procesos empresariales y ofrecer al usuario.
+    p.mb-4 Las herramientas de integración ayudan a las organizaciones a conseguir mayor eficiencia, productividad y agilidad ya que integran diferentes aplicaciones de #[em software] y servicios, interfaces de programación de aplicaciones (API), datos y dispositivos para automatizar los procesos empresariales y ofrecer al usuario un producto de calidad.
     p.mb-4 Las herramientas de gestión de cambios son cualquier cosa que se pueda utilizar para aliviar las tensiones que surgen durante un cambio en el proceso, el personal o el #[em software.]
 
     .row.justify-content-center
@@ -109,7 +110,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/imagene.svg', alt='Texto que describa la imagen')
 
-          h3.text-center.mb-4 #[.or Azure Pipelines]
+          h3.text-center.mb-4 #[em #[.or Azure Pipelines]]
           p.text-center Son servicios en la nube que combina y realiza entrega continua, donde compila y prueba automáticamente el código para finalmente colocar el mismo a disposición de otros usuarios. 
 
       .col-sm-7.col-lg-4.mb-4.mb-lg-4
@@ -119,7 +120,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/jenkins.svg', alt='Texto que describa la imagen')
 
-          h3.text-center.mb-4 #[.or Jenkins]
+          h3.text-center.mb-4 #[em #[.or Jenkins]]
           p.text-center Es una herramienta de integración continua, siendo la misma de código abierto y se puede configurar en entornos productivos.
       
       .col-sm-7.col-lg-4.mb-4.mb-lg-4
@@ -129,8 +130,8 @@
               figure
                 img(src='@/assets/curso/temas/tema3/genes.svg', alt='Texto que describa la imagen')
 
-          h3.text-center.mb-4 #[.or Gitlab]
-          p.text-center Tiene un servicio en el cual se construye y prueba el software cada vez que el programador actualiza el repositorio.
+          h3.text-center.mb-4 #[em #[.or Gitlab]]
+          p.text-center Tiene un servicio en el cual se construye y prueba el #[em software] cada vez que el programador actualiza el repositorio.
 
 
     Separador    
@@ -183,7 +184,7 @@
 
           .row.justify-content-center.align-items-center.mb-1
             .col-lg-8.col-12.my-0.mx-0(data-aos="fade-right")
-              p.mb-4 Cuando hablamos sobre las pruebas de conectividad las mismas se miden mediante herramientas de diagnóstico en el cual podemos verificar la conectividad entre los puntos de la red. Podemos realizar un análisis de la configuración y poder analizar datos del plano en vivo, las mismas pruebas de conectividad se usan para ayudar a controlar problemas de conexión de red como: 
+              p.mb-4 Las pruebas de conectividad se miden mediante herramientas de diagnóstico en el cual se puede verificar la conectividad entre los puntos de la red. Es posible realizar un análisis de la configuración y los datos del plano en vivo. Adicionalmente, las pruebas de conectividad se usan para ayudar a controlar problemas de conexión de red, como lo son:
               .row  
               .col-lg-12.mb-2
                 ul.lista-ul--color.mx-4
@@ -211,7 +212,7 @@
         .bloque-texto-b__texto
           .row.justify-content.align-items-center.d-flex
             .col-lg-10.col-12
-              p.mb-4 Dentro de las pruebas de funcionamiento se puede realizar el test de conectividad (Ver gráfico 4) mediante el valor de #[em shapley] ya que es un método de optimización de recursos y podemos aplicarlo a la conectividad o transmisión de paquetes, también mediante el #[em ping] podemos tomar los valores de conectividad de red.
+              p.mb-4 Dentro de las pruebas de funcionamiento se puede realizar el #[em test] de conectividad mediante el valor de #[em shapley,]  este es un método de optimización de recursos y es posible aplicarlo a la conectividad o transmisión de paquetes, mediante el #[em ping] también es posible tomar los valores de conectividad de la red.
             .col-auto
               img.img-a.img-t.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema3/subir.svg")
 
@@ -219,15 +220,17 @@
       .col-lg-7
         img.img-a.img-t.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/ping.svg', alt='')
         .row.justify-content-center.align-items-center
-    p Pero se toma las direcciones IP de cabecera de red y se procede a llenar la tabla 2.    
+    p Tomando los datos obtenidos al realizar el testeo se procede a diligenciar una tabla como la siguiente:
     
     .row.justify-content.mb-4
-      .col-lg-6
+      .col-lg-8.col-sm-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-          h5 Tabla 2
-          span  Plantilla de seguimiento de conexiones punto a punto
-        
-        .tabla-a.color-acento-contenido(data-aos="zoom-in")
+          h5 Tabla 2.
+          span La tabla ejemplifica la manera en la que se deben recoger los datos luego de aplicar un testeo de concetividad. 
+          Presenta las siguientes columnas para diligenciar: Nodo, valores de RED-tiempo, excelente, regular, malo.
+    .row.justify-content.mb-5
+      .col-lg-6.col-sm-12
+        .tabla-a.color-acento-contenido.mb-4(data-aos="zoom-in")
             thead
               tr
                 th.cab.margen.text-center Nodo 
@@ -266,11 +269,9 @@
                 td.blan
                 td.blan
                 td.blan
-      
-        .row.justify-content.mb-5
-      .col-lg-6.mb-lg-6.my-5(data-aos="fade-left")
+      .col-lg-6.mb-lg-6(data-aos="fade-left")
         .bg-5321.p-4
-          p.mb-4 En el anterior escenario podemos decir que tenemos N =5 donde sería los nodos que conforman la Red Power Line Communications (PLC), dando valores de red solicitados que se pueden extraer los valores de red tiempo por puntos y realizar la comparación entre nodos dando rangos según la topología de red.
+          p.mb-4 En el anterior escenario podemos decir que tenemos N =5 donde sería los nodos que conforman la #[em Red Power Line Communications (PLC),] dando valores de red solicitados que se pueden extraer los valores de red tiempo por puntos y realizar la comparación entre nodos dando rangos según la topología de red.
           p.mb-4 Ejemplo: Excelente rango de 1 – 20 MS.
           p.mb-4 Regular sería de 1 – 30 MS.
           p.mb-4 Malo sería rango de 1 – 40 Ms pero con interrupciones y fallas.
@@ -307,7 +308,7 @@
           .col-auto
             img.im11.img-a.img-t.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema3/documentacion.svg")
           .col-lg-10.col-12.mb-5 
-            p.mb-5 Las pruebas loT, permite al usuario controlar dispositivos de forma remota a través de una red. El IoT testing es un nuevo enfoque de prueba que involucra un alcance más amplio y complejo de pruebas de software tradicionales.
+            p.mb-5 Las pruebas loT, permite al usuario controlar dispositivos de forma remota a través de una red. El IoT #[em testing] es un nuevo enfoque de prueba que involucra un alcance más amplio y complejo de pruebas de #[em software] tradicionales.
           
 
 

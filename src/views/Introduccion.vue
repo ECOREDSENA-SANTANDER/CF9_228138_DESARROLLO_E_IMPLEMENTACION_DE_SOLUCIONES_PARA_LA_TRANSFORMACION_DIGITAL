@@ -11,12 +11,12 @@
       
     .introduccion.bloque-texto-b.color-secundario.p-2.px-0(data-aos="fade-left")
       .bloque-texto-b__texto
-        .row.justify-content.align-items-center.d-flex
+        .row.justify-content.align-items-center.d-flex.mb-4
           .col-lg-10.col-12
-            p En este componente formativo, tendrá la capacidad de crear aplicaciones que gestionen recursos IoT a través de sistemas de información basado en tecnología de punta, así mismo, dispondrá de la apropiación de conocimiento para realizar pruebas del código desarrollado o de otras soluciones que analicen y midan la eficacia y eficiencia de un aplicativo.<br><br>
+            p.mb-5 En este componente formativo se realizará un recorrido por los diferentes recursos para la aplicación  y gestión del Internet de las cosas. En el siguiente video se introduce el tema.
           .col-auto.im11
             img.d-none.d-lg-block(alt="" src="@/assets/curso/portada/img01.svg")
-          .col-lg-10.col-12.mb-4  
+          .col-lg-10.col-12 
             p.mb-5 La tecnología IoT son dispositivos que están conectados a una red de datos sea Internet o local, a nivel de desarrollo de software muchas aplicaciones se deben crear para la interacción con estos dispositivos. Veamos este tipo de programación:
           
   
