@@ -76,12 +76,10 @@
                 li.mb-0 
                   i.fas.fa-play
                   span #[em Ruby] es un lenguaje orientado a objetos, su sintaxis y semántica presentan que en su mayoría todos los tipos son objetos. 
-                li.mb-0 
-                  i.fas.fa-play
-                  span Muchos operadores son métodos de los objetos(Aprendiendo #[em Ruby y Rails.] Parte 1.)
                 li.mb-5 
                   i.fas.fa-play
-                  span Introducción a #[em Ruby], 2015.
+                  span Muchos operadores son métodos de los objetos(Aprendiendo #[em Ruby y Rails.] Parte 1. Introducción a #[em Ruby], 2015.)
+              
             .col-lg-5.col-10.mb-lg-0(data-aos="fade-right")
               img(src="@/assets/curso/temas/tema2/img2.1.svg")  
     
