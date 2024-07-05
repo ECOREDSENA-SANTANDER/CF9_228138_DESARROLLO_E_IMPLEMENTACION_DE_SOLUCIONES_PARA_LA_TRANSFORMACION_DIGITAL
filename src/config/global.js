@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Implementación y pruebas de IoT',
     descripcionCurso:
-      'Con este componente, se profundizará en los fundamentos necesarios para conocer los diferentes lenguajes de programación diseñar y buscar alternativas de transformación digital con componentes del IoT',
+      'Con este componente, se profundizará en los fundamentos necesarios para conocer los diferentes lenguajes de programación diseñar y buscar alternativas de transformación digital con componentes del IoT.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -139,8 +139,7 @@ export default {
       referencia:
         'Norma Iso 25000 https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6385',
       tipo: 'Página Web',
-      link:
-        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6385',
+      link: 'https://iso25000.com/index.php/normas-iso-25000',
     },
     {
       tema: 'Lenguaje de programación orientado a objetos',
@@ -163,7 +162,7 @@ export default {
       significado: 'Servicios de computación en la nube de Microsoft ',
     },
     {
-      termino: 'Framework',
+      termino: '<em>Framework</em>',
       significado:
         'Es un marco de trabajo específico, con instrucciones y estructuras, para la implementación de alguna acción.',
     },
@@ -203,19 +202,13 @@ export default {
     {
       referencia:
         'Conza, A. (15 de abril de 2018). ESTÁNDARES PARA DISEÑO E IMPLEMENTACIÓN DE BASES DE DATOS RELACIONALES. Obtenido de http://adrianconza.com/:',
-      link: 'http://adrianconza.com/estandares-de-bases-de-datos/',
-    },
-    {
-      referencia:
-        'Cupul, L. D. N., Ake, G. D. J. C., & Rosado, V. M. B. (2021). Web Page Development in Ruby Programming.',
       link:
-        'https://www.codecademy.com/courses/learn-rails/lessons/start/exercises/start-hello-rails',
+        'https://adrianconza.medium.com/estandares-de-bases-de-datos-2bee81b53447',
     },
     {
       referencia:
         'Gervais, L. (2016). Aprender la programación orientada a objetos con el lenguaje C#. Ediciones ENI',
-      link:
-        'https://www.llardelllibre.cat/es/libro/aprender-la-progamacion-orientada-a-objetos-con-el-lenguaje-c_850051',
+      link: '',
     },
     {
       referencia: 'Inicio - Introducción a Ruby. (2018.).',
@@ -223,7 +216,7 @@ export default {
     },
     {
       referencia: 'ISO/IEC 17789:2014. (2021).',
-      link: 'https://www.iso.org/standard/60545.html',
+      link: 'https://ccsp.alukos.com/standards/iso-iec-17789-2014/',
     },
     {
       referencia:
@@ -237,8 +230,7 @@ export default {
     {
       referencia:
         'S, G. & A, V. (2018). Introduction to Python Programming (Illustrated). CRC Press',
-      link:
-        'https://www.taylorfrancis.com/books/mono/10.1201/9781351013239/introduction-python-programming-gowrishankar-veena.',
+      link: '',
     },
     {
       referencia:
@@ -247,7 +239,7 @@ export default {
     {
       referencia:
         'Velthuis, M. P. (2019). Calidad de datos. Bogotá: Ediciones de la U. Obtenido de',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9094',
+      link: 'https://www.perlego.com/es/book/2165228/calidad-de-datos-pdf',
     },
   ],
   creditos: [
@@ -260,9 +252,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -270,31 +262,36 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'César Antonio Villamizar Núñez ',
-          cargo: 'Experto Temático  ',
-          centro: 'Sena - Norte de Santander Centro CIES ',
+          nombre: 'César Antonio Villamizar Núñez',
+          cargo: 'Experto Temático',
+          centro: 'Regional Norte de Santander- Centro CIES',
         },
         {
-          nombre: ' Diego E. Acevedo Guevara ',
-          cargo: 'Diseñador Instruccional  ',
+          nombre: 'Diego E. Acevedo Guevara',
+          cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Carolina Coca Salazar ',
-          cargo: 'Asesor Metodológico ',
-          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología  ',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Rafael Neftali Lizcano Reyes ',
-          cargo: 'Responsable Equipo de Desarrollo Curricular. ',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Sandra Patricia Hoyos Sepúlveda ',
-          cargo: 'Corrección de estilo ',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -302,24 +299,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Diego E. Acevedo Guevara',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Pedro Alonso Bolivar Gonzalez',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Pedro Alonso Bolivar González',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -327,24 +319,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },

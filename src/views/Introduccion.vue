@@ -15,7 +15,7 @@
           .col-lg-10.col-12
             p.mb-5 En este componente formativo se realizará un recorrido por los diferentes recursos para la aplicación  y gestión del Internet de las cosas. En el siguiente video se introduce el tema.
           .col-auto.im11
-            img.d-none.d-lg-block(alt="" src="@/assets/curso/portada/img01.svg")
+            img.d-none.d-lg-block.pyy(alt="" src="@/assets/curso/portada/img01.svg")
           .col-lg-10.col-12 
             p.mb-5 La tecnología IoT son dispositivos que están conectados a una red de datos sea Internet o local, a nivel de desarrollo de software muchas aplicaciones se deben crear para la interacción con estos dispositivos. Veamos este tipo de programación:
           

@@ -7,46 +7,46 @@
         span 2
       h1 Conceptos asociados al lenguaje
 
-    .row.bolivar.align-items-center.py-4.py-md-2
+    .row.bolivar.align-items-center.py-md-2
       .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.mb-5(data-aos="fade-down")  
+        .row.justify-content-center.mb-4(data-aos="fade-down")  
     
-        .row.justify-content-center
+        .row.justify-content-center.mb-0
           .col-lg-3.col-6.mb-4.mb-lg-0(data-aos="zoom-in")
             figure
               img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img001.jpg', alt='imagen decorativa') 
 
     
-          .col-lg-9.mb-5.mx-2-my-3.p-3(data-aos="fade-left")
-            p.mb-4.mx-4 Se concluye que cada lenguaje de programación utiliza  una lógica similar, pero los conceptos pueden cambiar. Los lenguajes de programación se definen como procesos donde se crea, se depura y se compila información para crear programas, utilizando códigos o instrucciones que el  desarrollador convierte en lenguaje de programación fuerte, de bajo , medio o alto nivel, compilados y declarativos u orientados a objetos.
-            p.mb-5.mx-4 Para iniciar a programar debemos tener los conceptos básicos de programación, como: 
+          .col-lg-9.mb-0.mx-2-my-3.p-3(data-aos="fade-left")
+            p.mb-4.mx-3 Se concluye que cada lenguaje de programación utiliza  una lógica similar, pero los conceptos pueden cambiar. Los lenguajes de programación se definen como procesos donde se crea, se depura y se compila información para crear programas, utilizando códigos o instrucciones que el  desarrollador convierte en lenguaje de programación fuerte, de bajo, medio o alto nivel, compilados y declarativos u orientados a objetos.
+            p.mb-5.mx-3 Para iniciar a programar debemos tener los conceptos básicos de programación, como: 
 
             .col-lg-12.col-md-12.col-12
                 SlyderA(tipo="b").slider-a-customer(data-aos="zoom-in-left")
                   .row.justify-content.align-items-center.my-lg-8
                     .col-md-3
-                      img(src='@/assets/curso/temas/tema2/Algoritmo.svg', alt='Texto que describa la imagen')
-                    .col-md-9.my-5
+                      img.img-a.img-t(src='@/assets/curso/temas/tema2/Algoritmo.svg', alt='Texto que describa la imagen')
+                    .col-md-9.my-4
                       p.mb-5 <h3>Algoritmo</h3>
                       p.mb-5  Es la base para la programación, al dominar los algoritmos es posible encontrar soluciones en cualquier lenguaje de programación.
                   .row.justify-content.align-items-center.my-lg-8
                     .col-md-3
-                      img(src='@/assets/curso/temas/tema2/Variable.svg', alt='Texto que describa la imagen')
+                      img.img-a.img-t(src='@/assets/curso/temas/tema2/Variable.svg', alt='Texto que describa la imagen')
                     .col-md-9.my-4
                       p.mb-5 <h3>Variable</h3>
-                      p.mb-5  Son unidades de almacenamiento datos que se utilizan para programar, se almacenan en espacios reservados en la memoria #[em RAM.]
+                      p.mb-5  Son unidades de almacenamientos de datos que se utilizan para programar y se reservan en espacios en la memoria #[em RAM].
                   .row.justify-content.align-items-center.my-lg-8
                     .col-md-3
-                      img(src='@/assets/curso/temas/tema2/Funcion.svg', alt='Texto que describa la imagen')
+                      img.img-a.img-t(src='@/assets/curso/temas/tema2/Funcion.svg', alt='Texto que describa la imagen')
                     .col-md-9.my-4
                       p.mb-5 <h3>Función</h3>
                       p.mb-5 Hace referencia a los bloques que realizan tareas específicas, el comando es: #[em function] y se reutiliza este código para realizar la redacción de líneas de manera más rápida.
                   .row.justify-content.align-items-center.my-lg-8
                     .col-md-3
-                      img(src='@/assets/curso/temas/tema2/Tipos.svg', alt='Texto que describa la imagen')
+                      img.img-a.img-t(src='@/assets/curso/temas/tema2/Tipos.svg', alt='Texto que describa la imagen')
                     .col-md-9.my-4
                       p.mb-5 <h3>Tipos de datos</h3>
-                      p.mb-5 Se refiere a conjuntos de valores que significan lo mismo. Los tipos de datos pueden ser numéricos, booleanos (dos opciones), fecha / Hora, de texto (cadena), variant o de objeto.
+                      p.mb-5 Se refiere a conjuntos de valores que significan lo mismo. Los tipos de datos pueden ser numéricos, booleanos (dos opciones), fecha / Hora, de texto (cadena), #[em variant] o de objeto.
 
     Separador    
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -54,7 +54,7 @@
     p(data-aos="fade-down").mb-3 La sintaxis dentro de todo lenguaje de programación es la combinación de reglas y símbolos que se consideran declaraciones o expresiones estructuradas en un lenguaje de programación.
     p.mb-3 Ideas principales y los puntos de conexión : 
 
-    .row.fond2.align-items-center.py-4.py-md-3
+    .row.fond2.align-items-center.py-md-3.mb-0
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4(data-aos="fade-down")
 
@@ -80,7 +80,7 @@
                   i.fas.fa-play
                   span Muchos operadores son métodos de los objetos(Aprendiendo #[em Ruby y Rails.] Parte 1. Introducción a #[em Ruby], 2015.)
               
-            .col-lg-5.col-10.mb-lg-0(data-aos="fade-right")
+            .col-lg-5.col-10(data-aos="fade-right")
               img(src="@/assets/curso/temas/tema2/img2.1.svg")  
     
     Separador    
@@ -88,29 +88,29 @@
       h2 2.2 Estructura general del lenguaje 
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-5.col-8.my-0
-        img.img-a.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema2/estructura.jpg', alt='')
+        img.img-a.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/temas/tema2/estructura.jpg', alt='')
   
-      .col-lg-7.col-md-12.col-12.mb-lg-0
-        .bloque-texto-b.estru22.color-secundario.p-3
+      .col-lg-7.col-md-12.col-12
+        .bloque-texto-b.estru22.color-secundario.p-3.mb-4
           img.img-a.img-t.faschek33.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
-          .bloque-texto-b__texto.px-4
+          .bloque-texto-b__texto.px-3
             p Un programa informático es una serie de acciones (instrucciones o comandos) que manejan un conjunto de objetos (datos e información), depende mucho el lenguaje que estés manejando para conformar su estructura. Los bloques que existen son declaraciones e instrucciones.
             p.d-flex.justify-content-end.my-2 #[b (Inicio - Introducción a #[em  Ruby,] 2018.)]
               i.fas.fa-quote-right.d-none.d-lg-block
             
-        p.mt-4 Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
+        p.mb-0 Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
     .row.justify-content-center.mb-4
       .col-lg-8.col-12
         .t
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-          h5 Figura 2
+          h5 Figura 2.
           span Estructura de un programa en #[em Ruby] 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-8.col-md-12.col-12.mb-lg-4.mb-5(data-aos="fade-right")
+      .col-lg-8.col-md-12.col-12.mb-lg-4.mb-2(data-aos="fade-right")
         img(src="@/assets/curso/temas/tema2/figura.svg", alt='En la siguiente imagen se expone una progresión o pasos secuenciales en una tarea, para este caso “el programa Ruby”.  Se identifica primero el ingreso de datos como etapa de inicio de programa, siguiendo la secuencia se introducen los cálculos en el proceso de programa, y para finalizar se ingresan los resultados con lo cual se concluye la secuencia que se orienta hacia la derecha. ')
 
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-2
       .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4
           .row.justify-content-center.mb-5
@@ -141,9 +141,9 @@
           h3.text-center  #[.or Salida de resultados]
           p.mb-4.text-center Conjunto de instrucciones que toman los datos finales de la memoria interna y los envían a los dispositivos externos.
 
-    p.mb-5 La estructura basica de un programa informatico se muestra en la tabla 1.
+    p.mb-4 La estructura basica de un programa informatico se muestra en la tabla 1.
           
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-0
       .col-lg-9.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Tabla 1.
@@ -227,9 +227,9 @@
           .col-lg-2.col-2.mb-2.mb-lg-2
             img.img-a.img-t.d-none.d-lg-block.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/conexion.svg', alt='')
           .col-lg-10.mb-8.mb-md-0(data-aos="fade-left")
-              p(data-aos="fade-down").mb-5 Una conexión de base de datos es un registro de configuración en el que se especifican los detalles físicos de una base de datos, como el tipo de base de datos la versión, y los parámetros para habilitar una conexión. Desde una aplicación por ejemplo en entornos #[em web], se puede concebir la interacción con la base de datos, donde existe un cliente que invoca una petición a la aplicación #[em web] que está alojada en un servidor #[em web,] desde ahí el #[em backend] de la aplicación interactúa con la base de datos respectiva, generando todos los accesos y dando resultados de nuevo al core de la aplicación #[em web] y de allí mostrar resultados a las vistas #[em (frontend)] del cliente respectivo. 
+              p(data-aos="fade-down").mb-4 Una conexión de base de datos es un registro de configuración en el que se especifican los detalles físicos de una base de datos, como el tipo de base de datos la versión, y los parámetros para habilitar una conexión. Desde una aplicación por ejemplo en entornos #[em web], se puede concebir la interacción con la base de datos, donde existe un cliente que invoca una petición a la aplicación #[em web] que está alojada en un servidor #[em web,] desde ahí el #[em backend] de la aplicación interactúa con la base de datos respectiva, generando todos los accesos y dando resultados de nuevo al core de la aplicación #[em web] y de allí mostrar resultados a las vistas #[em (frontend)] del cliente respectivo. 
           .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-            h5 Figura 3
+            h5 Figura 3.
             span Conexion base de datos 
           .col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in")
             figure
