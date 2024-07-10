@@ -278,7 +278,7 @@
       p.mb-4 Las empresas requieren programadores expertos en #[em Python], esto debido que es más fácil con tecnologías emergentes como:
       figure.mb-4(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/iSWz9b7HCEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/7qLlvequpLU?si=CVrJeCpo8PFr_Vay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
         figcaption Video: Leyenda del video
 </template>
 
