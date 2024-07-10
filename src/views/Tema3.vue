@@ -36,11 +36,12 @@
                 tbody
                   tr
                     td.uno #[b #[em #[.or Phyton]]] <br><br>Es un lenguaje interpretado de alto nivel<br> donde es uno de los lenguajes más<br> populares para el desarrollo de IoT.
-                    td.dos.mx-5 #[b #[em #[.or C]]]<br>
+                    td.dos.mx-5 #[b #[em #[.or C]]]
                       .row.justify-content-center.align-items-start
                         .col-lg-4
                         .col-lg-8
-                          p.mb-0 Es un lenguaje de nivel medio comprende toda la arquitectura de proyectos IoT por las grandes propiedades como la portabilidad y el número de bibliotecas que tiene.
+                          p.mb-2
+                          | Es un lenguaje de nivel medio comprende toda la arquitectura de proyectos IoT por las grandes propiedades como la portabilidad y el número de bibliotecas que tiene.
                   tr
                     td.tres #[b #[em #[.or Lua]]]<br><br> Lenguaje de nivel alto maneja funciones de descripción de datos y para que funcione correctamente se incorpora a un cliente #[em HOST.]
                     td.cuatro #[b #[em #[.or Golang ]]]<br><br> #[em Go] - aprovecha al máximo el #[em hardware] lo que lo hace útil y apropiado en IoT #[em Java:] esté código puede ejecutarse en cualquier plataforma para el adecuado desarrollo de proyectos de Internet de las cosas.
