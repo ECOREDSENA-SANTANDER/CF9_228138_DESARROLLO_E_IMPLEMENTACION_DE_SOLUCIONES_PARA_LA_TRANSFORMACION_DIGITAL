@@ -60,7 +60,7 @@
                   p.mb-4 Un entorno de desarrollo o #[em IDE] es un #[em software] que combina en un solo lugar todas las herramientas para desarrollar un proyecto, se puede decir que es la combinación de varios procesos de programación. 
                   p.mb-4 Los entornos de desarrollo cuentan con un editor, un compilador, y un desbloqueador de las gestiones de código genérico, las cuales se dan en entornos de los lenguajes de desarrollo #[em Python y Java.] 
                   p.mb-0 Por medio de los entornos de desarrollo, los programadores pueden testear los diferentes segmentos de código, con esto se logra identificar cualquier error de la aplicación antes de salir al mercado.
-    p.mb-0 Los #[em frameworks] pueden ser una de las herramientas más importantes para los programadores en general. Se trata de toda una base de datos en las que se establecen proyectos completos, y que pueden ser utilizados las veces necesarias. 
+    p.mb-0 Los #[em frameworks] pueden ser una de las herramientas más importantes para los programadores en general. Se trata de toda una base de datos en la que se establecen proyectos completos, y que pueden ser utilizados las veces necesarias. 
 
     Separador    
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -212,9 +212,9 @@
 
     .row.justify-content-center.align-items-start.mb-3
       .col-lg-7
-        img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/ping.svg', alt='')
+        img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/ping.svg', alt='La figura presenta una captura de pantalla que describe en lenguaje de programación los resultados de un testo de conectividad.')
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-          h5 Gráfico 4.
+          h5 Figura 4.
           | Testeo ping con una página web
     p Tomando los datos obtenidos al realizar el testeo se procede a diligenciar una tabla como la siguiente:
     
@@ -222,8 +222,7 @@
       .col-lg-8.col-sm-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
           h5 Tabla 2.
-          span La tabla ejemplifica la manera en la que se deben recoger los datos luego de aplicar un testeo de concetividad. 
-          Presenta las siguientes columnas para diligenciar: Nodo, valores de RED-tiempo, excelente, regular, malo.
+          span Plantilla de seguimiento  de conexiones punto a punto.
     .row.justify-content.mb-2
       .col-lg-6.col-sm-12
         .tabla-a.color-acento-contenido.mb-4(data-aos="zoom-in")

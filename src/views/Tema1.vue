@@ -52,7 +52,7 @@
           img(src="@/assets/curso/temas/tema1/img01.jpg" alt='En la siguiente imagen, se expone una entidad para este caso, un perro y al frente una gato, debajo de cada uno se detallan características como: Tipo de animal, Clases, Atributos como el nombre asignado por humano y la  edad. Finalmente se describen los métodos que en este caso son comer y correr respectivamente. ')
         .col-lg-5.mb-lg-4.mb-4
           .bg-532.p-3
-            p.mb-4 A partir de está clase se pueden crear las instancias, es decir, cuando la clase cuenta con memoria en el sistema operativo que va a operar sobre el software.
+            p.mb-4 A partir de está clase se pueden crear las instancias, es decir, la clase cuenta con memoria en el sistema operativo que va a operar sobre el #[em software].
             p.mb-0 De está forma, se pueden crear las instancias para un Perro de nombre= ”Yoni”  con una edad de “5” años o bien la representación de un gato de nombre= ”Milu” y de edad= ”1” año.  Los dos están a partir de la clase animal, pero son dos instancias diferentes. Por lo que al llamar a sus métodos logra poseer resultados diferentes. Los dos comparten la lógica de sus requerimientos funcionales, pero cada uno de forma independiente tiene su estado.
       p.mb-4 En estos términos, la programación orientada a objetos ofrece una forma de abstraer entidades del mundo real, a partir de cuatro (4) principios a nombrar:
       
@@ -66,11 +66,11 @@
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
                 p.mb-3 <h3> La abstracción</h3>
-                p.mb-5  Es la formalización del objeto en la clase. ¿Qué es un animal?, ¿cómo identificar un animal?, ¿Qué acciones hace un animal?. Con estas respuestas , creó la clase, atributos y sus correspondientes atributos.  
+                p.mb-5  Es la formalización del objeto en la clase. ¿Qué es un animal?, ¿cómo identificar un animal?, ¿Qué acciones hace un animal?. Con las respuestas a estas preguntas se crea la clase, los atributos y sus diferentes métodos, comportamientos o funciones.
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
-                p.mb-3 <h3> La herencia</h3>
-                p.mb-5 Clases que dependen del concepto de “es hijo de”, “es relacionado con”, “compartes datos con”. Hace referencia al concepto semántico de “herencia”, es decir, entidades que tienen los atributos de sus padres. A partir del ejemplo, se podría crear una clase “mamífero” a partir de la clase “animal”, ya que todos los mamíferos son animales y comparten los mismos atributos.
+                p.mb-2 <h3> La herencia</h3>
+                p.mb-4 Clases que dependen del concepto de “es hijo de”, “es relacionado con”, “compartes datos con”. Hace referencia al concepto semántico de “herencia”, es decir, entidades que tienen los atributos de sus padres. A partir del ejemplo, se podría crear una clase “mamífero” a partir de la clase “animal”, ya que todos los mamíferos son animales y comparten los mismos atributos.
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
                 p.mb-3 <h3> El polimorfismo</h3>
@@ -84,9 +84,9 @@
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em C++]
           img.cemas.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg'  data-aos="fade-left")
 
-      p.mb-0 #[em C]++ es un lenguaje de programación orientada a objetos que evolucionó de la extensión de lenguaje informático C. #[em C]++ se utiliza para realizar programación estructurada de alto nivel y rendimiento, como sistemas operativos, videojuegos y aplicaciones en la nube. #[em C]++ también se emplea para desarrollar #[em software] de bajo nivel, como controladores de dispositivos.
+      p.mb-0 Es un lenguaje de programación orientada a objetos que evolucionó de la extensión de lenguaje informático C. #[em C]++ se utiliza para realizar programación estructurada de alto nivel y rendimiento, como sistemas operativos, videojuegos y aplicaciones en la nube. #[em C]++ también se emplea para desarrollar #[em software] de bajo nivel, como controladores de dispositivos.
 
-      .row.fondo-pink.justify-content-center.align-items-center.py-4.py-md-0.mb-4
+      .row.fondo-pink.justify-content-center.align-items-center.py-md-0.mb-4
         .col-lg-12.col-12.px-lg-5.px-4
           .row.justify-content-center.mb-0(data-aos="fade-down")
       
@@ -99,7 +99,7 @@
                   img.img-a.img-t.faschek.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
                   .bloque-texto-b__texto.px-3
                     .col-lg-12.col-md-12.col-12
-                      p.mb-5 En lenguaje como C++ donde se diseña dentro de la Programación orientada a Objetos, si dentro del programa a realizar todos los miembros de una clase son públicos y estáticos, en aquel momento equivalen a variables y funciones globales con el prefijo «NombreDeClase:» 
+                      p.mb-5 En lenguaje como #[em C]++ donde se diseña dentro de la Programación orientada a Objetos, si dentro del programa a realizar todos los miembros de una clase son públicos y estáticos, en aquel momento equivalen a variables y funciones globales con el prefijo «NombreDeClase:» 
                       h5.d-flex.justify-content-end.my-2 (Gervais, 2016).
                         i.fas.fa-quote-right.d-none.d-lg-block
         
@@ -108,7 +108,7 @@
                     img.img-a.img-t.faschektt.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
                     .bloque-texto-b__texto.mx-4
                       .col-lg-12.col-md-12.col-12
-                        p Definición de clases: Los datos de una clase se pueden guardar en una estructura, de hecho, en #[em C]++ un #[em struct] no es otra cosa que una clase con todos los miembros públicos. Como C no permite métodos, usamos funciones globales. El equivalente de #[em C]++. 
+                        p Definición de clases: los datos de una clase se pueden guardar en una estructura, de hecho, en #[em C]++ un #[em struct] no es otra cosa que una clase con todos los miembros públicos. Como C no permite métodos, usamos funciones globales. El equivalente de #[em C]++. 
                         h5.d-flex.justify-content-end.my-2 (Sierra, 2015).
                           i.fas.fa-quote-right.d-none.d-lg-block
                   .row.align-items-center.justify-content-center

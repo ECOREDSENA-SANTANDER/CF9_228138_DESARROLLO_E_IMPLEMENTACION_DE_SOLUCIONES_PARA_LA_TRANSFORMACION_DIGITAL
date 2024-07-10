@@ -19,7 +19,7 @@
     
           .col-lg-9.mb-0.mx-2-my-3.p-3(data-aos="fade-left")
             p.mb-4.mx-3 Se concluye que cada lenguaje de programación utiliza  una lógica similar, pero los conceptos pueden cambiar. Los lenguajes de programación se definen como procesos donde se crea, se depura y se compila información para crear programas, utilizando códigos o instrucciones que el  desarrollador convierte en lenguaje de programación fuerte, de bajo, medio o alto nivel, compilados y declarativos u orientados a objetos.
-            p.mb-5.mx-3 Para iniciar a programar debemos tener los conceptos básicos de programación, como: 
+            p.mb-5.mx-3 Para iniciar a programar, se deben tener en cuenta los siguientes conceptos básicos de programación:
 
             .col-lg-12.col-md-12.col-12
                 SlyderA(tipo="b").slider-a-customer(data-aos="zoom-in-left")
@@ -52,7 +52,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.1 Sintaxis
     p(data-aos="fade-down").mb-3 La sintaxis dentro de todo lenguaje de programación es la combinación de reglas y símbolos que se consideran declaraciones o expresiones estructuradas en un lenguaje de programación.
-    p.mb-3 Ideas principales y los puntos de conexión : 
+    p.mb-3 Ideas principales y puntos de conexión:
 
     .row.fond2.align-items-center.py-md-3.mb-0
       .col-lg-12.col-12.px-lg-5.px-4
@@ -76,9 +76,9 @@
                 li.mb-0 
                   i.fas.fa-play
                   span #[em Ruby] es un lenguaje orientado a objetos, su sintaxis y semántica presentan que en su mayoría todos los tipos son objetos. 
-                li.mb-5 
+                li.mb-5
                   i.fas.fa-play
-                  span Muchos operadores son métodos de los objetos(Aprendiendo #[em Ruby y Rails.] Parte 1. Introducción a #[em Ruby], 2015.)
+                  span Muchos operadores son métodos de los objetos (Aprendiendo #[em Ruby y Rails.] Parte 1. Introducción a #[em Ruby], 2015.)
               
             .col-lg-5.col-10(data-aos="fade-right")
               img(src="@/assets/curso/temas/tema2/img2.1.svg")  
@@ -129,7 +129,7 @@
                 img.img-a.img-t(src='@/assets/curso/temas/tema2/proceso.svg', alt='Texto que describa la imagen')
 
           h3.text-center #[.or Proceso o algoritmo]
-          p.mb-5.text-center Instrucciones que modifican los objetos de entrada y, en ocasiones, creando otros nuevos.
+          p.mb-5.text-center Instrucciones que modifican los objetos de entrada y en ocasiones y en ocaciones crean otros nuevos.
 
       .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4

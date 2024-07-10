@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 El primer objetivo de IoT es montar una interconectividad digitalizada y automatizada entre objetos, creando nexos que permitan una continua comunicación entre las cosas a través de sensores, #[em softwares,] Inteligencia Artificial y sistemas computarizados. Para potenciar su aplicación, el IoT trabaja con otras tecnologías punteras como #[em C#, Java (SE, EE), PHP, Ruby. y Python.]
+    p.mb-5 El primer objetivo de IoT es montar una interconectividad digitalizada y automatizada entre objetos, creando nexos que permitan una continua comunicación entre las cosas a través de sensores, #[em softwares], Inteligencia Artificial y sistemas computarizados. Para potenciar su aplicación, el IoT trabaja con otras tecnologías punteras como #[em C]++, #[em Java (SE, EE), PHP, Ruby. y Python.]
 
     .row.justify-content-center
       .col-lg-10.mb-5

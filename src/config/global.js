@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Implementación y pruebas de IoT',
     descripcionCurso:
-      'Con este componente, se profundizará en los fundamentos necesarios para conocer los diferentes lenguajes de programación diseñar y buscar alternativas de transformación digital con componentes del IoT.',
+      'Con este componente, se profundizará en los fundamentos necesarios para conocer los diferentes lenguajes de programación, a través del estudio de conceptos y aplicaciones relacionadas con el internet de las cosas, se pretende  diseñar y buscar alternativas de transformación digital con componentes del IoT',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -299,7 +299,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Edison Eduardo Mantilla Cuadros',
+          nombre: 'Marcos Yamid Rubiano Avellaneda',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
@@ -319,7 +319,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Yineth Ibette González Quintero',
           cargo: 'Validadora de Recursos Educativos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
