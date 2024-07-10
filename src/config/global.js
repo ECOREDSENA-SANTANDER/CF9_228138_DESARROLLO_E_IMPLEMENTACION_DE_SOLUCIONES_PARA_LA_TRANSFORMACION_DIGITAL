@@ -324,7 +324,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Diana Lizeth Lozada Díaz',
           cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },

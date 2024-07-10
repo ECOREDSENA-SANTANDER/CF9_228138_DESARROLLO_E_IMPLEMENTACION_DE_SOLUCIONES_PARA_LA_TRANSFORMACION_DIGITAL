@@ -18,7 +18,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Hu4Hbi4fPYU?si=Zhq9F9SVVAdVWOcy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video: Implementacion y pruebas de IoT
+      figcaption Video: Implementación y pruebas de IoT
       
 </template>
 <script>
