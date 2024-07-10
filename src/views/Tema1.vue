@@ -198,7 +198,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-md-12.col-lg-10.col-12
               .bg9
-                .row.justify-content-center.align-items-center.mb-4
+                .row.justify-content-center.align-items-center.mb-2
                   .col-md-11.col-lg-3.col-11.my-3
                     p.mx-3 En el editor link:
                       .col-lg-12
@@ -207,7 +207,7 @@
                             img(src="@/assets/template/icono-link.svg")
                           .anexo__texto
                             p #[b Enlace web.] paiza.io
-                  .col-md-9.col-lg-6.col-12
+                  .col-md-9.col-lg-6.col-10
                     .dondo.p-2.mb-0.my-4(data-aos="fade-right")
                       .row.justify-content-left.align-items-center.d-flex
                         .col-lg-3.col-8
@@ -275,7 +275,7 @@
       figure.mb-4(data-aos="zoom-in")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/7qLlvequpLU?si=CVrJeCpo8PFr_Vay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video: Leyenda del video
+        figcaption Video: Python - Lenguaje de programación
 </template>
 
 <script>

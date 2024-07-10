@@ -7,7 +7,7 @@
         span 2
       h1 Conceptos asociados al lenguaje
 
-    .row.bolivar.align-items-center.py-md-2
+    .row.bolivar.align-items-center
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4(data-aos="fade-down")  
     
@@ -92,11 +92,11 @@
   
       .col-lg-7.col-md-12.col-12
         .bloque-texto-b.estru22.color-secundario.p-3.mb-4
-          img.img-a.img-t.faschek33.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
+          img.img-a.img-t.faschek33(src="@/assets/curso/temas/tema1/fas.svg")  
           .bloque-texto-b__texto.px-3
             p Un programa informático es una serie de acciones (instrucciones o comandos) que manejan un conjunto de objetos (datos e información), depende mucho el lenguaje que estés manejando para conformar su estructura. Los bloques que existen son declaraciones e instrucciones.
             p.d-flex.justify-content-end.my-2 #[b (Inicio - Introducción a #[em  Ruby,] 2018.)]
-              i.fas.fa-quote-right.d-none.d-lg-block
+              i.fas.fa-quote-right
             
         p.mb-0 Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
     .row.justify-content-center.mb-4

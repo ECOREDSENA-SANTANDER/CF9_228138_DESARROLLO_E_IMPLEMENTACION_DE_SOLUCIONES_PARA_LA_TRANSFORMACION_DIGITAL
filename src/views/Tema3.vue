@@ -7,7 +7,7 @@
         span 3
       h1 Aplicaciones para programar dispositivos IoT
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Los lenguajes más importantes y utilizados en el desarrollo de Internet de las cosas- #[em IoT]  son #[em Java,] lenguaje C, #[em Python y JavaScript].
         .bg138.p-3.mb-3
@@ -289,7 +289,7 @@
             .col-lg-6.col-8
               img(alt="" src="@/assets/curso/temas/tema3/validacion.svg") 
 
-    .mb-4.d-flex
+    .mb-5.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Documentacion de pruebas y resultados
         img.punto44.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema3/titulo.svg' data-aos="fade-left")
@@ -310,7 +310,7 @@
     figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/iSWz9b7HCEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+      figcaption Video: Análisis de requisitos, procesos e información
 
     
 
