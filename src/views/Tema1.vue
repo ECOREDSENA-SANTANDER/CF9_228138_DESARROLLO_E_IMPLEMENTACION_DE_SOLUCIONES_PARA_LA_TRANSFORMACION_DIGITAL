@@ -41,7 +41,7 @@
           img.objeto1.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema1/titulo.svg' data-aos="fade-left")
 
       p.mb-4 Es un tipo de entidad que cuenta con propiedades (datos) y comportamientos (métodos).
-      p.mb-4 En la siguiente figura se presenta un gráfico donde las entidades: Perro ,Gato, Ardilla están asociadas a una clase: “Animal”. Esta clase posee unas características propias que diferencian a las entidades entre sí: edad , nombre, raza , entre otros. A su vez, la clase “Animal” tiene acciones como: Comer, Dormir, y Correr. 
+      p.mb-4 En la siguiente figura se presenta un gráfico donde las entidades: Perro, Gato, Ardilla están asociadas a una clase: “Animal”. Esta clase posee unas características propias que diferencian a las entidades entre sí: edad, nombre, raza, entre otros. A su vez, la clase “Animal” tiene acciones como: Comer, Dormir, y Correr. 
       
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
             h5 Figura 1 
@@ -62,11 +62,11 @@
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
                 p.mb-3 <h3> La encapsulación</h3>
-                p.mb-3  Un objeto oculta sus datos y solo muestra (interfaz) u ofrece un servicio al universo de las clases. De está forma, “el gato Milu corre”, una clase que representa una veterinaria podría operar sobre ella, sabiendo que “Milu” corre pero desconociendo cuál es su proceso funcional.
+                p.mb-3  Un objeto oculta sus datos y solo muestra (interfaz) u ofrece un servicio al universo de las clases. De esta forma, “el gato Milu corre”, una clase que representa una veterinaria podría operar sobre ella, sabiendo que “Milu” corre, pero desconociendo cuál es su proceso funcional.
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
                 p.mb-3 <h3> La abstracción</h3>
-                p.mb-5  Es la formalización del objeto en la clase. ¿Qué es un animal?, ¿cómo identificar un animal?, ¿Qué acciones hace un animal?. Con las respuestas a estas preguntas se crea la clase, los atributos y sus diferentes métodos, comportamientos o funciones.
+                p.mb-5  Es la formalización del objeto en la clase. ¿Qué es un animal?, ¿cómo identificar un animal?, ¿Qué acciones hace un animal? Con las respuestas a estas preguntas se crea la clase, los atributos y sus diferentes métodos, comportamientos o funciones.
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
                 p.mb-2 <h3> La herencia</h3>
@@ -74,7 +74,7 @@
               .row.justify-content-center.align-items-center.my-lg-8
                 .col-md-7
                 p.mb-3 <h3> El polimorfismo</h3>
-                p.mb-5 Capacidad que tienen las clases y/u operaciones para hacer la misma función en diferentes contextos o dominios. En el caso particular, no es lo mismo “comer para un perro” que “comer para un gato”, los dos objetos tendrán el mismo método pero diferente acción.
+                p.mb-5 Capacidad que tienen las clases y/u operaciones para hacer la misma función en diferentes contextos o dominios. En el caso particular, no es lo mismo “comer para un perro” que “comer para un gato”, los dos objetos tendrán el mismo método, pero diferente acción.
         .col-lg-5.col-9.col.md-9.mb-2(data-aos="fade-right")
           img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/temas/tema1/img08.png")
 
@@ -146,7 +146,7 @@
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
-              p.mb-0 Concientizan el tiempo de ejecución y la aplicación de #[em Java,] para su correcto funcionamiento se debe instalar #[em Java] para escritorio. Encontramos muchas aplicaciones del lenguaje #[em Java] en casi todos los campos, ya sea una aplicación o desarrollo #[em web, big data], Inteligencia Artificial, desarrollo #[em móvil], etc.
+              p.mb-0 Concientizan el tiempo de ejecución y la aplicación de #[em Java,] para su correcto funcionamiento se debe instalar #[em Java] para escritorio. Encontramos muchas aplicaciones del lenguaje #[em Java] en casi todos los campos, ya sea una aplicación o desarrollo #[em web, big data], Inteligencia Artificial, desarrollo móvil, etc.
             .row(titulo="Sitio <em>web</em> Java.com")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0

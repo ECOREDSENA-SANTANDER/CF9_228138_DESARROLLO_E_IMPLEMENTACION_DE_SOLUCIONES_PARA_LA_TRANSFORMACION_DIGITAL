@@ -98,7 +98,7 @@
             p.d-flex.justify-content-end.my-2 #[b (Inicio - Introducción a #[em  Ruby,] 2018.)]
               i.fas.fa-quote-right
             
-        p.mb-0 Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
+        p.mb-0 Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc.) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
     .row.justify-content-center.mb-4
       .col-lg-8.col-12
         .t
@@ -129,7 +129,7 @@
                 img.img-a.img-t(src='@/assets/curso/temas/tema2/proceso.svg', alt='Texto que describa la imagen')
 
           h3.text-center #[.or Proceso o algoritmo]
-          p.mb-5.text-center Instrucciones que modifican los objetos de entrada y en ocasiones y en ocaciones crean otros nuevos.
+          p.mb-5.text-center Instrucciones que modifican los objetos de entrada y en ocaciones crean otros nuevos.
 
       .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4
@@ -141,7 +141,7 @@
           h3.text-center  #[.or Salida de resultados]
           p.mb-4.text-center Conjunto de instrucciones que toman los datos finales de la memoria interna y los envían a los dispositivos externos.
 
-    p.mb-4 La estructura basica de un programa informatico se muestra en la tabla 1.
+    p.mb-4 La estructura básica de un programa informático se muestra en la tabla 1.
           
     .row.justify-content-center.mb-0
       .col-lg-9.col-md-12.col-12
@@ -184,7 +184,7 @@
     
         .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
           .col-lg-8.col-12.mb-2-cus
-            p.mb-2 En la medida del avance de la tecnología en plena cuarta revolución industrial, los programas de computadora que nos ayudan a realizar códigos fuente de los diferentes proyectos de programación, evolucionan constantemente y pueden combinar diferentes lenguajes o editores: #[em Python, javaScript, HTML,] etc. Al crear una pagina #[em Web] es importante considerar que existen editores de códigos compatibles con sistemas operativos como #[em Windows, MacOs o Linux.]
+            p.mb-2 En la medida del avance de la tecnología en plena cuarta revolución industrial, los programas de computadora que nos ayudan a realizar códigos fuente de los diferentes proyectos de programación, evolucionan constantemente y pueden combinar diferentes lenguajes o editores: #[em Python, JavaScript, HTML,] etc. Al crear una página #[em Web] es importante considerar que existen editores de códigos compatibles con sistemas operativos como #[em Windows, MacOs o Linux.]
             .d-flex.align-items-center.justify-content-center
               img.img-a.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img003.svg', alt='')
               p.ml-1-custom.mt-0 Las características de los editores de código en cada sistema operativo son, capacidad de almacenar proyectos, sintaxis en varios idiomas, funciones de búsqueda y reemplazo, funciones de mostrar y ocultar secciones, edición de macros. Algunos editores son:
@@ -209,12 +209,12 @@
                   i.fas.fa-play
                   span
                     strong.or #[b #[em Atom:]]  
-                    |  es un editor de javascript ligero y tiene una gran cantidad de extensiones donde se puede personalizar su funcionamiento. 
+                    |  es un editor de #[em JavaScript] ligero y tiene una gran cantidad de extensiones donde se puede personalizar su funcionamiento. 
                 li.mb-1 
                   i.fas.fa-play
                   p
                     strong.or #[b #[em Ultraedit:]]&nbsp; 
-                    | es uno de los lenguajes donde se puede editar multitud de lenguajes de programación en #[em HTML; Javascript, ASP.]
+                    | es uno de los lenguajes donde se puede editar multitud de lenguajes de programación en #[em HTML; JavaScript, ASP.]
             
           .col-lg-4.mb-2-cus
             img.img-a.img-t.mx-2.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img004.png', alt='')
@@ -230,16 +230,16 @@
               p(data-aos="fade-down").mb-4 Una conexión de base de datos es un registro de configuración en el que se especifican los detalles físicos de una base de datos, como el tipo de base de datos la versión, y los parámetros para habilitar una conexión. Desde una aplicación por ejemplo en entornos #[em web], se puede concebir la interacción con la base de datos, donde existe un cliente que invoca una petición a la aplicación #[em web] que está alojada en un servidor #[em web,] desde ahí el #[em backend] de la aplicación interactúa con la base de datos respectiva, generando todos los accesos y dando resultados de nuevo al core de la aplicación #[em web] y de allí mostrar resultados a las vistas #[em (frontend)] del cliente respectivo. 
           .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
             h5 Figura 3.
-            span Conexion base de datos 
+            span Conexión base de datos 
           .col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema2/img002.jpg', alt='Consultar en la imagen el vínculo dinámico entre cliente PC, Servidor Web y Base de datos. Lo cual se expone en tres figuras geométricas en su orden Triangulo, cuadrado y cilindro, conectadas por fechas')  
+              img(src='@/assets/curso/temas/tema2/img002.jpg', alt='Consultar en la imagen el vínculo dinámico entre cliente PC, Servidor Web y Base de datos. Lo cual se expone en tres figuras geométricas en su orden Triángulo, cuadrado y cilindro, conectadas por flechas')  
 
           .col-lg-6(data-aos="fade-left")
             .bg14.p-3.mb-0
-              p Una base de datos permite acumular gran número de información de una forma constituida para su futura consulta, construcción de búsquedas, nuevo ingreso de datos, etc. Todo esto lo aprueba si se realiza de una forma rápida y simple desde un computador.
+              p.mb-4.my-3 Una base de datos permite acumular gran número de información de una forma constituida para su futura consulta, construcción de búsquedas, nuevo ingreso de datos, etc. Todo esto lo aprueba si se realiza de una forma rápida y simple desde un computador.
               p En proyectos de #[em IOT] en la nube se pueden adquirir servicios de base de datos como #[em Amazon y Dynamo DB.]
-              p Los componentes de una base de datos.
+
 
 </template>
 <script>

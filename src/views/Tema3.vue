@@ -35,7 +35,7 @@
                     th
                 tbody
                   tr
-                    td.uno #[b #[em #[.or Phyton]]] <br><br>Es un lenguaje interpretado de alto nivel<br> donde es uno de los lenguajes más<br> populares para el desarrollo de IoT.
+                    td.uno #[b #[em #[.or Phyton]]] <br><br>Es un lenguaje interpretado de alto nivel,<br> y es uno de los más populares para<br> el desarrollo de IoT.
                     td.dos.mx-5 #[b #[em #[.or C]]]
                       .row.justify-content-center.align-items-start
                         .col-lg-4
@@ -140,7 +140,7 @@
       .col-lg-8(data-aos="fade-left")
         p.mb-3 Cuando miramos las implementaciones de proyectos en IoT pensamos que el conocimiento de inteligencia empresarial no deja de transformarse y, uno de los últimos negocios relevantes se debe a las aplicaciones IoT.
         p.mb-3 Se denomina aplicaciones IoT a las soluciones de #[em software] diseñadas para realizar tareas, en este caso, en base a la información procedente de dispositivos conectados a una red. Según datos de #[em IDC], para el 2020, la cantidad de objetos conectados habrá alcanzado los 30 miles de millones, ofreciendo una oportunidad de ingresos de 1.7 miles de millones de dólares americanos, para el año 2030 la proyección sería de 125 mil millones conectados.
-        p.mb-0 En la implementación de proyectos IoT se puede conectar hoy en dia cualquier objeto como:
+        p.mb-0 En la implementación de proyectos IoT se puede conectar hoy en día cualquier objeto como:
           .row  
         .col-lg-12.col-md-10.col-12
           ul.lista-ul--color.mx-4.my-0.mb-3
@@ -148,18 +148,18 @@
               i.fas.fa-play
               span
                 strong.or #[b Tráfico: ] 
-                | como proyectos en Vehículos, Semáforos
+                | como proyectos en Vehículos, Semáforos.
             li.mb-0
               i.fas.fa-play
-              p #[.or #[b Objetos personales:&nbsp;]] Ropa, zapatos 
+              p #[.or #[b Objetos personales:&nbsp;]] ropa, zapatos.
             li.mb-0
               i.fas.fa-play
               span
                 strong.or #[b Hogar: ] 
-                | Timbre, Garaje, Puertas hogar, Electrodomésticos
+                | timbre, garaje, puertas hogar, electrodomésticos.
             li.mb-0
               i.fas.fa-play
-              p #[.or #[b Equipos electrónicos:&nbsp;]]todos
+              p #[.or #[b Equipos electrónicos:&nbsp;]]todos.
             li.mb-0
               i.fas.fa-play
               p #[.or #[b Dispositivos de salud en control&nbsp;]]
@@ -189,7 +189,7 @@
                     span Opciones incoherentes no deseadas.
                   li.mb-0
                     i.fas.fa-play
-                    span Opción obsoletas en la configuración esto se puede dar según las migraciones o cambios que tenga la arquitectura de #[em hardware. ]
+                    span Opciones obsoletas en la configuración esto se puede dar según las migraciones o cambios que tenga la arquitectura de #[em hardware. ]
                   li.mb-0
                     i.fas.fa-play
                     p Error en la variedad de servicio y funciones de la red.
@@ -213,10 +213,10 @@
 
     .row.justify-content-center.align-items-start.mb-3
       .col-lg-7
-        img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/ping.svg', alt='La figura presenta una captura de pantalla que describe en lenguaje de programación los resultados de un testo de conectividad.')
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
           h5 Figura 4.
           | Testeo ping con una página web
+        img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/ping.svg', alt='La figura presenta una captura de pantalla que describe en lenguaje de programación los resultados de un testeo de conectividad.')
     p Tomando los datos obtenidos al realizar el testeo se procede a diligenciar una tabla como la siguiente:
     
     .row.justify-content.mb-2
@@ -279,7 +279,7 @@
 
         .mb-4.d-flex
           .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
-            h3.col.px-4.mb-0.text-white(data-aos="fade-right") Validacion de rendimiento
+            h3.col.px-4.mb-0.text-white(data-aos="fade-right") Validación de rendimiento
             img.punto3.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema3/titulo.svg' data-aos="fade-left")
 
         .bloque-texto-b__texto
@@ -309,8 +309,8 @@
 
     figure(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/iSWz9b7HCEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Análisis de requisitos, procesos e información
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/js-QjCWvfLo?si=RZXfVd0p-n7Rn8uI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video: Documentación de pruebas y resultados
 
     
 

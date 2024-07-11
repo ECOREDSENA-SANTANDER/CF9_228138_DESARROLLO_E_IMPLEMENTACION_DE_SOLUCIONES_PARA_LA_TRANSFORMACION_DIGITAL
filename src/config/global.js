@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Implementación y pruebas de IoT',
     descripcionCurso:
-      'Con este componente, se profundizará en los fundamentos necesarios para conocer los diferentes lenguajes de programación, a través del estudio de conceptos y aplicaciones relacionadas con el internet de las cosas, se pretende  diseñar y buscar alternativas de transformación digital con componentes del IoT',
+      'Con este componente, se profundizará en los fundamentos necesarios para conocer los diferentes lenguajes de programación, a través del estudio de conceptos y aplicaciones relacionadas con el internet de las cosas, se pretende  diseñar y buscar alternativas de transformación digital con componentes del IoT.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -119,7 +119,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228138_CF09_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -158,7 +158,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Azure',
+      termino: '<em>Azure</em>',
       significado: 'Servicios de computación en la nube de Microsoft ',
     },
     {
@@ -171,22 +171,22 @@ export default {
       significado: 'Internet de las cosas',
     },
     {
-      termino: 'Partner',
+      termino: '<em>Partner</em>',
       significado:
-        'Socio u operador de servicios en la nube (CSN) es una parte que se dedica a respaldar o proporcionar actividades de soporte auxiliar a las actividades del cliente o proveedor de servicios cloud.',
+        'Socio u operador de servicios en la nube (CSN) es una parte que se dedica a respaldar o proporcionar actividades de soporte auxiliar a las actividades del cliente o proveedor de servicios <em>cloud</em>.',
     },
     {
-      termino: 'Script',
+      termino: '<em>Script</em>',
       significado:
         'Se refiere a fragmentos de código de programación que pueden ejecutar una o varias funciones.',
     },
     {
-      termino: 'Smart cities',
+      termino: '<em>Smart cities</em>',
       significado: 'Ciudades inteligentes',
     },
     {
-      termino: 'SaaS',
-      significado: 'Software como servicio.',
+      termino: '<em>SaaS</em>',
+      significado: '<em>Software</em> como servicio.',
     },
     {
       termino: 'TI  ',
@@ -201,7 +201,7 @@ export default {
     },
     {
       referencia:
-        'Conza, A. (15 de abril de 2018). ESTÁNDARES PARA DISEÑO E IMPLEMENTACIÓN DE BASES DE DATOS RELACIONALES. Obtenido de http://adrianconza.com/:',
+        'Conza, A. (15 de abril de 2018). ESTÁNDARES PARA DISEÑO E IMPLEMENTACIÓN DE BASES DE DATOS RELACIONALES.',
       link:
         'https://adrianconza.medium.com/estandares-de-bases-de-datos-2bee81b53447',
     },
@@ -224,7 +224,7 @@ export default {
     },
     {
       referencia:
-        'Sotaquirá, M. (15 de junio de 2021). Guía completa para el Manejo de Datos Faltantes. Obtenido de codificandobits:',
+        'Sotaquirá, M. (15 de junio de 2021). Guía completa para el Manejo de Datos Faltantes.',
       link: 'https://www.codificandobits.com/blog/manejo-datos-faltantes/',
     },
     {
@@ -237,8 +237,7 @@ export default {
         'Somasundaram, K. (2014). Introduction to Java Programming. Penguin Random House.',
     },
     {
-      referencia:
-        'Velthuis, M. P. (2019). Calidad de datos. Bogotá: Ediciones de la U. Obtenido de',
+      referencia: 'Velthuis, M. P. (2019). Calidad de datos.',
       link: 'https://www.perlego.com/es/book/2165228/calidad-de-datos-pdf',
     },
   ],
