@@ -54,7 +54,7 @@
     p(data-aos="fade-down").mb-3 La sintaxis dentro de todo lenguaje de programación es la combinación de reglas y símbolos que se consideran declaraciones o expresiones estructuradas en un lenguaje de programación.
     p.mb-3 Ideas principales y puntos de conexión:
 
-    .row.fond2.align-items-center.py-md-3.mb-0
+    .row.fond2.contenedor.align-items-center.py-md-3.mb-0
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4(data-aos="fade-down")
 
@@ -80,7 +80,7 @@
                   i.fas.fa-play
                   span Muchos operadores son métodos de los objetos (Aprendiendo #[em Ruby y Rails.] Parte 1. Introducción a #[em Ruby], 2015.)
               
-            .col-lg-5.col-10(data-aos="fade-right")
+            .col-lg-5.col-12.col-md-10(data-aos="fade-right")
               img(src="@/assets/curso/temas/tema2/img2.1.svg")  
     
     Separador    
@@ -91,12 +91,12 @@
         img.img-a.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/temas/tema2/estructura.jpg', alt='')
   
       .col-lg-7.col-md-12.col-12
-        .bloque-texto-b.estru22.color-secundario.p-3.mb-4
-          img.img-a.img-t.faschek33(src="@/assets/curso/temas/tema1/fas.svg")  
+        .bloque-texto-b.estru22.cont.color-secundario.p-3.mb-4
+          img.img-a.img-t.faschek33.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
           .bloque-texto-b__texto.px-3
             p Un programa informático es una serie de acciones (instrucciones o comandos) que manejan un conjunto de objetos (datos e información), depende mucho el lenguaje que estés manejando para conformar su estructura. Los bloques que existen son declaraciones e instrucciones.
             p.d-flex.justify-content-end.my-2 #[b (Inicio - Introducción a #[em  Ruby,] 2018.)]
-              i.fas.fa-quote-right
+              i.fas.fa-quote-right.d-none.d-lg-block
             
         p.mb-0 Las declaraciones son los objetos que utiliza el programa como variables y archivos (Variables, archivos, etc.) las instrucciones son los resultados que se esperan por las acciones y operaciones realizadas. En la figura 2, presenta la estructura básica de un programa en #[em Ruby.]
     .row.justify-content-center.mb-4
@@ -184,7 +184,7 @@
     
         .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
           .col-lg-8.col-12.mb-2-cus
-            p.mb-2 En la medida del avance de la tecnología en plena cuarta revolución industrial, los programas de computadora que nos ayudan a realizar códigos fuente de los diferentes proyectos de programación, evolucionan constantemente y pueden combinar diferentes lenguajes o editores: #[em Python, JavaScript, HTML,] etc. Al crear una página #[em Web] es importante considerar que existen editores de códigos compatibles con sistemas operativos como #[em Windows, MacOs o Linux.]
+            p.mb-2 En la medida del avance de la tecnología en plena cuarta revolución industrial, los programas de computadora que nos ayudan a realizar códigos fuente de los diferentes proyectos de programación, evolucionan constantemente y pueden combinar diferentes lenguajes o editores: #[em Python, JavaScript, HTML,] etc. Al crear una página #[em Web] es importante considerar que existen editores de códigos compatibles con sistemas operativos como #[em Windows, macOS o Linux.]
             .d-flex.align-items-center.justify-content-center
               img.img-a.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img003.svg', alt='')
               p.ml-1-custom.mt-0 Las características de los editores de código en cada sistema operativo son, capacidad de almacenar proyectos, sintaxis en varios idiomas, funciones de búsqueda y reemplazo, funciones de mostrar y ocultar secciones, edición de macros. Algunos editores son:

@@ -95,22 +95,22 @@
                 img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/c++.png', alt='')
               
               .col-lg-7.mb-4
-                .bloque-texto-b.primero.color-secundario.p-3
-                  img.img-a.img-t.faschek(src="@/assets/curso/temas/tema1/fas.svg")  
+                .bloque-texto-b.primero.contt.color-secundario.p-3
+                  img.img-a.img-t.faschek.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
                   .bloque-texto-b__texto.px-3
                     .col-lg-12.col-md-12.col-12
                       p.mb-5 En lenguaje como #[em C]++ donde se diseña dentro de la Programación orientada a Objetos, si dentro del programa a realizar todos los miembros de una clase son públicos y estáticos, en aquel momento equivalen a variables y funciones globales con el prefijo «NombreDeClase:» 
                       h5.d-flex.justify-content-end.my-2 (Gervais, 2016).
-                        i.fas.fa-quote-right
+                        i.fas.fa-quote-right.d-none.d-lg-block
         
                 .cajoni-b.lenguaje.color-secundario.mb-4
                   .bloque-texto-b.two.color-secundario.p-3
-                    img.img-a.img-t.faschektt(src="@/assets/curso/temas/tema1/fas.svg")  
+                    img.img-a.img-t.faschektt.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
                     .bloque-texto-b__texto.mx-4
                       .col-lg-12.col-md-12.col-12
                         p Definición de clases: los datos de una clase se pueden guardar en una estructura, de hecho, en #[em C]++ un #[em struct] no es otra cosa que una clase con todos los miembros públicos. Como C no permite métodos, usamos funciones globales. El equivalente de #[em C]++. 
                         h5.d-flex.justify-content-end.my-2 (Sierra, 2015).
-                          i.fas.fa-quote-right
+                          i.fas.fa-quote-right.d-none.d-lg-block
                   .row.align-items-center.justify-content-center
                     .col-lg-5.col-md-5.col-12
                       img.my-4.img-a.img-t(src="@/assets/curso/temas/tema1/cuadroo.svg")
@@ -171,7 +171,7 @@
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
               p.mb-0 Debe tener una sólida comprensión de la programación orientada a objetos. Estar familiarizado con varios diseños y patrones arquitectónicos. Habilidad para escribir bibliotecas en lenguaje #[em Java] reutilizables. Conocimiento de los patrones de concurrencia en #[em Java.]
-            .row(titulo="Aplicación de uso personal")
+            .row.p-0(titulo="Aplicación de uso personal")
               .col-6.ps-5
                 ul.lista-ul--color.lista-acento-botones.mb-0
                   li.mb-0.d-flex 
@@ -179,7 +179,7 @@
                 p.mb-0
                 a.en.mb-3(href="https://www.java.com/es/download/help/windows_manual_download.html" target="_blank")
                   span.mb-4.orr #[em https://www.java.com/es/download/help/windows_manual_download.html]
-                p.mb-0 En la plataforma Link: 
+                p.mb-0 En la plataforma enlace: 
                 a.en.mb-0(href="https://www.jdoodle.com/online-java-compiler/" target="_blank")
                   span.mb-0.orr  #[em https://www.jdoodle.com/online-java-compiler/]
     
@@ -200,7 +200,7 @@
               .bg9
                 .row.justify-content-center.align-items-center.mb-2
                   .col-md-11.col-lg-3.col-11.my-3
-                    p.mx-3 En el editor link:
+                    p.mx-3 En el editor enlace:
                       .col-lg-12
                         a.anexo.mb-lg-0(href="https://paiza.io/es/projects/new " target="_blank")
                           .anexo__icono
@@ -233,14 +233,14 @@
 
       .row.justify-content-center.mb-4
         .col-lg-7.col-md-12.col-12.mb-lg-0
-          .bloque-texto-b.rubby.color-secundario.p-3
-            img.img-a.img-t.faschek(src="@/assets/curso/temas/tema1/fas.svg")  
+          .bloque-texto-b.rubby.contte.color-secundario.p-3.mb-2
+            img.img-a.img-t.faschek.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
             .bloque-texto-b__texto.px-4
               p Se utiliza en su mayoría en el desarrollo de aplicaciones #[em web,] pero también se utiliza para otros tipos de desarrollo en #[em streaming]. #[em Ruby] maneja estrechamente el paradigma de #[em POO,] así que estas variables son privadas y no logran verse desde fuera de la clase, toda comunicación que se realiza entre objetos se hace con los métodos. Se caracteriza por un lenguaje dinámico, ya que los programas en #[em Ruby] no se compilan, todo el código de clases, módulos y métodos se realiza por medio de un intérprete.
               h5.d-flex.justify-content-end.my-2 (Cupul, 2021).
-                i.fas.fa-quote-right
+                i.fas.fa-quote-right.d-none.d-lg-block
           .row.justify-content-center
-            .col-lg-9.col-md-10.col-10
+            .col-lg-9.col-md-10.col-12
               .fondoaa.p-2.mb-0
                 .row.justify-content-center.align-items-center.d-flex
                   .col-lg-3.col-8
@@ -265,14 +265,14 @@
 
       .row
         .col-lg-12.mb-lg-0
-          .bloque-texto-b.python.color-secundario.p-3
-            img.img-a.img-t.faschek3(src="@/assets/curso/temas/tema1/fas.svg")  
+          .bloque-texto-b.python.contd.color-secundario.p-3.mb-2
+            img.img-a.img-t.faschek3.d-none.d-lg-block(src="@/assets/curso/temas/tema1/fas.svg")  
             .bloque-texto-b__texto.px-4
               p #[em Python] es un lenguaje de programación considerablemente utilizado en la mayor parte de las aplicaciones #[em web,] al realizar programas empresariales, la ciencia de datos y el #[em machine learning (ML).] Los programadores utilizan #[em Python] porque es eficientemente muy fácil de aprender, además de que se puede ejecutar en diferentes plataformas. El #[em software Python] es gratuito, se integra bien a todos las características de sistemas y aumenta la velocidad del desarrollo.
               h5.d-flex.justify-content-end.my-4 (S & G, 2018)
-                i.fas.fa-quote-right
+                i.fas.fa-quote-right.d-none.d-lg-block
       p.mb-4 Las empresas requieren programadores expertos en #[em Python], esto debido que es más fácil con tecnologías emergentes como:
-      figure.mb-4(data-aos="zoom-in")
+      figure(data-aos="zoom-in")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/7qLlvequpLU?si=CVrJeCpo8PFr_Vay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
         figcaption Video: Python - Lenguaje de programación

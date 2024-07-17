@@ -71,29 +71,43 @@
     
     
     .row.justify-content-center.mb-0
-      .col-lg-10.col-md-12.col-10
+      .col-lg-10.col-md-12.col-12
         img.img-a.img-t.movere.d-none.d-lg-block.my-4(src="@/assets/curso/temas/tema3/flechas.jpg")
-        .row.justify-content-center.align-items-center.mb-4
-          .col-sm-5.col-lg-3.mb-4.mb-lg-4
-            .pary1.p-2
-              h3.text-center.mb-3.my-3 #[.or Norma ISO 25000]
-              p.text-center La norma consta de 5 áreas enfocadas a la gestión, el modelo, la medición del mismo, los requisitos y la evaluación. Donde se asegura la máxima calidad y confianza en los desarrollos de #[em software.] 
-
-          .col-sm-5.col-lg-3.mb-4.mb-lg-4
-            .pary2.p-2
-              h3.text-center.mb-3.my-3 #[.or Norma ISO 9126]
-              p.text-center Esta norma se compone dentro de los estándares y plantillas en 6 aspectos que se deben tener en cuenta que son la funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad. Donde se puede conocer que los desarrollos de #[em software] cumplan con las necesidades de los usuarios.
-      
-          .col-sm-5.col-lg-3.mb-4.mb-lg-4
-            .pary3.p-2
-              h3.text-center.mb-3.my-3 #[.or Norma ISO 9001]
-              p.text-center Mediante el #[em software] de calidad, donde la confianza y reputación de los usuarios son los beneficios de este modelo de gestión.
-          
-          .col-sm-6.col-lg-3.mb-4.mb-lg-4
-            .pary4.p-2
-              h3.text-center.mb-3.my-3 #[.or Norma ISO 15504]
-              p.text-center Es la norma conocida por la mejora de procesos, contando con los estándares de calidad de #[em software.]
-
+        .row.justify-content-center.align-items-start
+          .col-lg-12.col-md-12.col-12
+            .tabla-a.ocu.mb-4.d-none.d-lg-block(data-aos="zoom-in")
+              thead
+                tr
+                  td.modi.cab1.margen.text-center #[.or Norma ISO 25000]
+                    .row
+                      .col-lg-12.col-12
+                        p.my-3 La norma consta de 5 áreas enfocadas a la gestión, el modelo, la medición del mismo, los requisitos y la evaluación. Donde se asegura la máxima calidad y confianza en los desarrollos de #[em software]. 
+                  td.modi.cab2.marggg.text-center #[.or Norma ISO 9126]
+                    .row
+                      .col-lg-12
+                        p.my-3 Esta norma se compone dentro de los estándares y plantillas en 6 aspectos que se deben tener en cuenta que son la funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad. Donde se puede conocer que los desarrollos de #[em software] cumplan con las necesidades de los usuarios.
+                  td.modi.cab3.marge.text-center #[.or Norma ISO 9001]
+                    .row
+                      .col-lg-12
+                        p.my-3 Mediante el #[em software] de calidad, donde la confianza y reputación de los usuarios son los beneficios de este modelo de gestión.
+                  td.modi.cab4.mari.text-center #[.or Norma ISO 15504]   
+                    .row
+                      .col-lg-12
+                        p.my-3 Es la norma conocida por la mejora de procesos, contando con los estándares de calidad de #[em software.]     
+    .row.justify-content-center.mb-4.imagen-mobile
+      .col-lg-10.col-md-12.col-12
+        .cab1.p-3
+          h4 #[.or Norma ISO 25000]
+          p.mb-0 La norma consta de 5 áreas enfocadas a la gestión, el modelo, la medición del mismo, los requisitos y la evaluación. Donde se asegura la máxima calidad y confianza en los desarrollos de #[em software]. 
+        .cab2.p-3
+          h4 #[.or Norma ISO 9126]
+          p.mb-0 Esta norma se compone dentro de los estándares y plantillas en 6 aspectos que se deben tener en cuenta que son la funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad. Donde se puede conocer que los desarrollos de #[em software] cumplan con las necesidades de los usuarios.
+        .cab3.p-3
+          h4 #[.or Norma ISO 9001]
+          p.mb-0 Mediante el #[em software] de calidad, donde la confianza y reputación de los usuarios son los beneficios de este modelo de gestión.
+        .cab4.p-3
+          h4 #[.or Norma ISO 15504]
+          p.mb-0 Es la norma conocida por la mejora de procesos, contando con los estándares de calidad de #[em software.]     
 
     p.mb-4 Las herramientas de integración ayudan a las organizaciones a conseguir mayor eficiencia, productividad y agilidad ya que integran diferentes aplicaciones de #[em software] y servicios, interfaces de programación de aplicaciones (#[em API]), datos y dispositivos para automatizar los procesos empresariales y ofrecer al usuario un producto de calidad.
     p.mb-4 Las herramientas de gestión de cambios son cualquier cosa que se pueda utilizar para aliviar las tensiones que surgen durante un cambio en el proceso, el personal o el #[em software.]
@@ -105,9 +119,10 @@
             .col-4
               figure
                 img(src='@/assets/curso/temas/tema3/imagene.svg', alt='Texto que describa la imagen')
-
-          h3.text-center.mb-4 #[em #[.or Azure Pipelines]]
-          p.text-center Son servicios en la nube que combina y realiza entrega continua, donde compila y prueba automáticamente el código para finalmente colocar el mismo a disposición de otros usuarios. 
+          .row.justify-content-center.mb-0
+            .col-12
+              h3.text-center.mb-3 #[em #[.or Azure Pipelines]]
+              p.text-center Son servicios en la nube que combina y realiza entrega continua, donde compila y prueba automáticamente el código para finalmente colocar el mismo a disposición de otros usuarios. 
 
       .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4
@@ -117,7 +132,7 @@
                 img(src='@/assets/curso/temas/tema3/jenkins.svg', alt='Texto que describa la imagen')
 
           h3.text-center.mb-4 #[em #[.or Jenkins]]
-          p.text-center Es una herramienta de integración continua, siendo la misma de código abierto y se puede configurar en entornos productivos.
+          p.text-center.mb-5 Es una herramienta de integración continua, siendo la misma de código abierto y se puede configurar en entornos productivos.
       
       .col-sm-7.col-lg-4.mb-4.mb-lg-4
         .bg11111.p-4

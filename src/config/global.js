@@ -119,12 +119,12 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228138_CF09_DU.zip',
+        download: 'downloads/228138_CF09_DU.pdf',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/228138_CF09_DU.zip',
       },
       {
         icono: 'far fa-registered',
@@ -137,7 +137,7 @@ export default {
     {
       tema: 'Lenguaje de programación orientado a objetos',
       referencia:
-        'Norma Iso 25000 https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6385',
+        'Norma ISO 25000 https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=6385',
       tipo: 'Página Web',
       link: 'https://iso25000.com/index.php/normas-iso-25000',
     },
@@ -237,8 +237,9 @@ export default {
         'Somasundaram, K. (2014). Introduction to Java Programming. Penguin Random House.',
     },
     {
-      referencia: 'Velthuis, M. P. (2019). Calidad de datos.',
-      link: 'https://www.perlego.com/es/book/2165228/calidad-de-datos-pdf',
+      referencia:
+        'Calidad de Datos. Cómo impulsar tu negocio con los datos. (s. f.). ',
+      link: 'https://www.powerdata.es/calidad-de-datos',
     },
   ],
   creditos: [
