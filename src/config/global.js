@@ -319,13 +319,18 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
           nombre: 'Yineth Ibette González Quintero',
           cargo: 'Validadora de Recursos Educativos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Diana Lizeth Lozada Díaz',
-          cargo: 'Validación de Contenidos Accesibles',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
