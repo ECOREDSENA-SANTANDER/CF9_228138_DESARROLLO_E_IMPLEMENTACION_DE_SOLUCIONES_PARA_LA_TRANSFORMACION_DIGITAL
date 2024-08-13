@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="295" height="271" viewBox="0 0 295 271">
+  <g id="Grupo_1070053" data-name="Grupo 1070053" transform="translate(-915 -2554)">
+    <rect id="Rectángulo_356280" data-name="Rectángulo 356280" width="295" height="271" rx="11" transform="translate(915 2554)" fill="#f8bfb6"/>
+    <text id="_1_class_MiClase_2_3_public:_4_int_miDato_5_void_hazAlgo_void_6_7_miDato_5_8_9_" data-name="1   class MiClase 
+2   { 
+3   public: 
+4         int miDato; 
+5         void hazAlgo(void) 
+6          { 
+7               miDato = 5; 
+8          } 
+9 };" transform="translate(936 2584)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17" xml:space="preserve">1   class MiClase </tspan><tspan x="0" y="41" xml:space="preserve">2   { </tspan><tspan x="0" y="65" xml:space="preserve">3   public: </tspan><tspan x="0" y="89" xml:space="preserve">4         int miDato; </tspan><tspan x="0" y="113" xml:space="preserve">5         void hazAlgo(void) </tspan><tspan x="0" y="137" xml:space="preserve">6          { </tspan><tspan x="0" y="161" xml:space="preserve">7               miDato = 5; </tspan><tspan x="0" y="185" xml:space="preserve">8          } </tspan><tspan x="0" y="209">9 };</tspan></text>
+  </g>
+</svg>
